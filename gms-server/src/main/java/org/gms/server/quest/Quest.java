@@ -416,6 +416,11 @@ public class Quest {
         newStatus.setCompletionTime(System.currentTimeMillis());
         chr.updateQuestStatus(newStatus);
 
+    if (GameConfig.getServerBoolean("quest_complete_hp_bonus")) {
+        chr.addMaxHP(6);    // 完成任务增加6点最大HP                                           
+        chr.sendPacket(PacketCreator.earnTitleMessage("任务 [" + this.name + "] 为您增加了6点MaxHp"));  // 屏幕中间显示透明提示消息，类似任务完成提示
+}
+
         chr.sendPacket(PacketCreator.showSpecialEffect(9)); // Quest completion
         chr.getMap().broadcastMessage(chr, PacketCreator.showForeignEffect(chr.getId(), 9), false); //use 9 instead of 12 for both
         return true;
