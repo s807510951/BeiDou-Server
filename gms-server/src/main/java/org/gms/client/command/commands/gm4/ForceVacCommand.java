@@ -61,7 +61,7 @@ public class ForceVacCommand extends Command {
                 } else if (player.applyConsumeOnPickup(mapItem.getItemId())) {    // thanks Vcoc for pointing out consumables on pickup not being processed here
                 } else if (ItemId.isNxCard(mapItem.getItemId())) {
                     // Add NX to account, show effect and make item disappear
-                    player.getCashShop().gainCash(1, mapItem.getItemId() == ItemId.NX_CARD_100 ? 100 : 250);
+                    player.getCashShop().gainCash(2, mapItem.getItemId() == ItemId.NX_CARD_100 ? 100 : 250);
                 } else if (mapItem.getItem().getItemId() >= 5000000 && mapItem.getItem().getItemId() <= 5000100) {
                     int petId = Pet.createPet(mapItem.getItem().getItemId());
                     if (petId == -1) {
