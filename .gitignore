@@ -6,6 +6,9 @@
 .github
 !.github/ISSUE_TEMPLATE
 .vscode
+功能开发/
+版本/
+
 
 # build files
 /build/

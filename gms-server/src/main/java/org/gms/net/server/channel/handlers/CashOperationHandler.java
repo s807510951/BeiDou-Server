@@ -101,7 +101,7 @@ public final class CashOperationHandler extends AbstractPacketHandler {
                     final int useNX = p.readInt();
                     final int snCS = p.readInt();
                     ModifiedCashItemDO cItem = CashItemFactory.getItem(snCS);
-                    if (!canBuy(chr, cItem, cs.getCash(useNX))) {
+                    if (!canBuy(chr, cItem, cs.getCash(useNX), useNX)) {
                         log.error("Denied to sell cash item with SN {}", snCS); // preventing NPE here thanks to MedicOP
                         c.enableCSActions();
                         return;
@@ -145,7 +145,7 @@ public final class CashOperationHandler extends AbstractPacketHandler {
                     CharacterService characterService = ServerManager.getApplicationContext().getBean(CharacterService.class);
                     CharactersDO charactersDO = characterService.findByName(p.readString());
                     String message = p.readString();
-                    if (!canBuy(chr, cItem, cs.getCash(CashShop.NX_PREPAID)) || message.isEmpty() || message.length() > 73) {
+                    if (!canBuy(chr, cItem, cs.getCash(CashShop.NX_PREPAID), CashShop.NX_PREPAID) || message.isEmpty() || message.length() > 73) {
                         c.enableCSActions();
                         return;
                     }
@@ -210,7 +210,7 @@ public final class CashOperationHandler extends AbstractPacketHandler {
                             return;
                         }
                         int type = (cItem.getItemId() - 9110000) / 1000;
-                        if (!canBuy(chr, cItem, cs.getCash(cash))) {
+                        if (!canBuy(chr, cItem, cs.getCash(cash), cash)) {
                             c.enableCSActions();
                             return;
                         }
@@ -254,7 +254,7 @@ public final class CashOperationHandler extends AbstractPacketHandler {
                     } else {
                         ModifiedCashItemDO cItem = CashItemFactory.getItem(p.readInt());
 
-                        if (!canBuy(chr, cItem, cs.getCash(cash))) {
+                        if (!canBuy(chr, cItem, cs.getCash(cash), cash)) {
                             c.enableCSActions();
                             return;
                         }
@@ -279,7 +279,7 @@ public final class CashOperationHandler extends AbstractPacketHandler {
                     int cash = p.readInt();
                     ModifiedCashItemDO cItem = CashItemFactory.getItem(p.readInt());
 
-                    if (!canBuy(chr, cItem, cs.getCash(cash))) {
+                    if (!canBuy(chr, cItem, cs.getCash(cash), cash)) {
                         c.enableCSActions();
                         return;
                     }
@@ -447,7 +447,7 @@ public final class CashOperationHandler extends AbstractPacketHandler {
                     c.sendPacket(PacketCreator.showCash(c.getPlayer()));
                 } else if (action == 0x2E) { //name change
                     ModifiedCashItemDO cItem = CashItemFactory.getItem(p.readInt());
-                    if (cItem == null || !canBuy(chr, cItem, cs.getCash(CashShop.NX_PREPAID))) {
+                    if (cItem == null || !canBuy(chr, cItem, cs.getCash(CashShop.NX_PREPAID), CashShop.NX_PREPAID)) {
                         c.sendPacket(PacketCreator.showCashShopMessage((byte) 0));
                         c.enableCSActions();
                         return;
@@ -479,7 +479,7 @@ public final class CashOperationHandler extends AbstractPacketHandler {
                     c.enableCSActions();
                 } else if (action == 0x31) { //world transfer
                     ModifiedCashItemDO cItem = CashItemFactory.getItem(p.readInt());
-                    if (cItem == null || !canBuy(chr, cItem, cs.getCash(CashShop.NX_PREPAID))) {
+                    if (cItem == null || !canBuy(chr, cItem, cs.getCash(CashShop.NX_PREPAID), CashShop.NX_PREPAID)) {
                         c.sendPacket(PacketCreator.showCashShopMessage((byte) 0));
                         c.enableCSActions();
                         return;
@@ -530,8 +530,12 @@ public final class CashOperationHandler extends AbstractPacketHandler {
         return c.checkBirthDate(cal);
     }
 
-    private static boolean canBuy(Character chr, ModifiedCashItemDO item, int cash) {
+    private static boolean canBuy(Character chr, ModifiedCashItemDO item, int cash, int useNX) {
         if (item != null && item.isSelling() && item.getPrice() <= cash) {
+            if (String.valueOf(item.getSn()).startsWith("1") && useNX != CashShop.NX_CREDIT) {
+                chr.dropMessage(1, "该道具只能使用点券购买。");
+                return false;
+            }
             log.info("玩家 {} 购买了现金道具 {} (SN {}) 花费 {}", chr, ItemInformationProvider.getInstance().getName(item.getItemId()), item.getSn(), item.getPrice());
             return true;
         } else {
