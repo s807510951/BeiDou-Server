@@ -1,3 +1,5 @@
+-- 更新角色库存槽位默认值为96个
+
 ALTER TABLE characters MODIFY COLUMN equipslots INT(11) NOT NULL DEFAULT '96';
 ALTER TABLE characters MODIFY COLUMN useslots INT(11) NOT NULL DEFAULT '96';
 ALTER TABLE characters MODIFY COLUMN setupslots INT(11) NOT NULL DEFAULT '96';

@@ -1,3 +1,5 @@
+-- 插入游戏配置：完成任务是否增加6点最大HP
+
 INSERT INTO `game_config` (`config_type`, `config_sub_type`, `config_clazz`, `config_code`, `config_value`, `config_desc`) 
 VALUES ('server', 'Game Mechanics', 'java.lang.Boolean', 'quest_complete_hp_bonus', 'true', 'quest_complete_hp_bonus');
 
