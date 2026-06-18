@@ -16435,7 +16435,7 @@
         <imgdir name="1">
             <string name="0" value="哦，应该很不容易吧。让我看看你的杰作。不错！正是我需要的。等我一下，给你做个最好的防毒面具。"/>
             <imgdir name="yes">
-                <string name="0" value="呼~终于完成了。古书的内容本来就很含糊不清，真是不容易。哈哈~看，怎么样？这是你的#r符咒独眼野猪帽子#k！戴上它的话，不管是什么毒气都可以挡住！"/>
+                <string name="0" value="呼~终于完成了。古书的内容本来就很含糊不清，真是不容易。哈哈~看，怎么样？这是你的#r狂野之眼的防毒面具#k！戴上它的话，就能挡住前方刺鼻的毒气和恶臭！"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="item">
@@ -16464,7 +16464,7 @@
             </imgdir>
             <imgdir name="yes">
                 <string name="0" value="我很赞赏你的勇气。先介绍一些#r地狱大公#k的情况。\n第一，地狱大公有很多技能，其中最危险的是杀人技能。你马上就会见识到是多么的危险。要不惜一切代价避免被击中，否则他马上就发射出所积累的全部黑暗能量。#b要提醒你的是，观察下周围环境找出哪里可以逃生！#k"/>
-                <string name="1" value="还有，你必须与3到5人的队伍一起进入。#k在#b#m105050400##k可以找到去#r地狱大公#k 那里的入口。祝你好运！还有啊，记得带上#符咒独眼野猪帽子。#k 没有它，你进不去的。"/>
+                <string name="1" value="还有，你必须与3到5人的队伍一起进入。#k在#b#m105050400##k可以找到去#r地狱大公#k 那里的入口。祝你好运！还有啊，记得带上#r狂野之眼的防毒面具#k。没有它，你进不去的。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="哈，你成功了。真棒！"/>
@@ -17849,8 +17849,20 @@
     </imgdir>
     <imgdir name="29400">
         <imgdir name="0">
+            <string name="0" value="#v1142004:# #e#b#t1142004##k#n\n\n30天内击杀100000只符合等级条件的怪物即可获得该勋章。\n\n你要接受挑战吗？"/>
+            <imgdir name="yes">
+                <string name="0" value="挑战已经开始。请在限制时间内尽可能多地狩猎符合条件的怪物。"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="准备好之后再来找我吧。"/>
+            </imgdir>
         </imgdir>
         <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="还没有完成狩猎目标。请继续挑战。"/>
+                </imgdir>
+            </imgdir>
         </imgdir>
     </imgdir>
     <imgdir name="29500">
@@ -17906,14 +17918,50 @@
     </imgdir>
     <imgdir name="29505">
         <imgdir name="0">
+            <string name="0" value="#v1142077:# #e#b#t1142077##k\n\n - 怪物嘉年华2胜场数最高\n\n#n你想确认自己是否有资格拥有这枚勋章吗？"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="不断挑战并赢得怪物嘉年华2，是证明实力的最佳方式。只要你认为自己符合条件，随时可以回来找我接受审查。"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="想要获得绝对胜利的荣誉，就继续在怪物嘉年华2中挑战吧。"/>
+            </imgdir>
         </imgdir>
         <imgdir name="1">
+            <string name="0" value="让我看看你是否拥有怪物嘉年华2中最多的胜利。"/>
+            <imgdir name="yes">
+                <string name="0" value="我宣布你成为#b#t1142077##k的主人。如果你想挑战新的称号，请随时再来找我。"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="你还没有获得#b#t1142077##k的资格。请在怪物嘉年华2中取得更多胜利后再来。"/>
+                </imgdir>
+            </imgdir>
         </imgdir>
     </imgdir>
     <imgdir name="29506">
         <imgdir name="0">
+            <string name="0" value="#v1142078:# #e#b#t1142078##k\n\n - 怪物嘉年华2胜率最高\n\n#n你想确认自己是否有资格拥有这枚勋章吗？"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="保持稳定的胜率，才是真正的嘉年华天才。只要你认为自己符合条件，随时可以回来找我接受审查。"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="想证明自己的天赋，就继续在怪物嘉年华2中挑战吧。"/>
+            </imgdir>
         </imgdir>
         <imgdir name="1">
+            <string name="0" value="让我看看你是否拥有怪物嘉年华2中最高的胜率。"/>
+            <imgdir name="yes">
+                <string name="0" value="我宣布你成为#b#t1142078##k的主人。如果你想挑战新的称号，请随时再来找我。"/>
+            </imgdir>
+            <imgdir name="stop">
+                <imgdir name="item">
+                    <string name="0" value="你还没有获得#b#t1142078##k的资格。请在怪物嘉年华2中取得更高胜率后再来。"/>
+                </imgdir>
+            </imgdir>
         </imgdir>
     </imgdir>
     <imgdir name="29507">
@@ -22748,72 +22796,72 @@
     </imgdir>
     <imgdir name="3323">
         <imgdir name="1">
-            <string name="0" value="嗯...？什么事情啊？我得和内罗玩，很忙...什么？#p2111004#有件事要拜托你？你认识#p2111004#吗？！"/>
+            <string name="0" value="嗯……？有什么事吗？我正忙着陪内罗玩……什么？你是替#p2111004#来的？你认识#p2111004#吗？！"/>
             <imgdir name="stop">
                 <imgdir name="npc">
-                    <string name="0" value="你还没去找#b#p2012018##k吗？他在#b#m200000000##k..."/>
+                    <string name="0" value="你还没去找#b#p2012018##k吗？他在#b#m200000000##k……"/>
                 </imgdir>
             </imgdir>
             <imgdir name="lost">
-                <string name="0" value="啊...看来你好像把信弄丢了。信我可以随时重新写，请您一定要尽快交给#p2012018#。"/>
+                <string name="0" value="啊……看来你把信弄丢了。信我可以再写一封，请一定尽快把它交给#p2012018#。"/>
                 <imgdir name="yes">
                 </imgdir>
             </imgdir>
         </imgdir>
         <imgdir name="0">
-            <string name="0" value="啊啊...怎么办呢...这种时候要是他在就好了...怎么办才好呢..."/>
-            <string name="1" value="啊...您是旅行者吗？这里很少有从玛加提亚来旅行的人...很高兴见到您。我旁边的那个女孩就是我的女儿，名叫#p2111005#。虽然一直笑得很开心，但实际上她的身体很不好..."/>
-            <string name="2" value="但是连载魔法上有相当造诣的蒙特鸠协会会长也没有办法治好#p2111005#的病。卡帕莱特吗？...卡帕莱特那边不愿意帮忙...我都不知道该怎么办才好了。"/>
-            <string name="3" value="这种时候要是有他在的话应该能帮得上忙...但是联系不上...啊！您去过#b#m200000000##k吗？如果您去过那里的话，我能请您帮个忙吗？"/>
+            <string name="0" value="啊啊……怎么办呢……这种时候要是他在就好了……"/>
+            <string name="1" value="啊……您是旅行者吗？很少有人专程来到玛加提亚。很高兴见到您。旁边那个女孩是我的女儿#p2111005#，她总是笑得很开心，但身体其实一直不好。"/>
+            <string name="2" value="就连在魔法方面造诣很深的蒙特鸠协会会长，也没办法治好#p2111005#。卡帕莱特那边……也不愿意帮忙。我真的不知道该怎么办。"/>
+            <string name="3" value="如果能联系上他，也许还有办法……可我一直联系不上。啊！您去过#b#m200000000##k吗？如果去过，能请您帮我一个忙吗？"/>
             <imgdir name="yes">
-                <string name="0" value="您认识#m200000000#的名叫#b#p2012018##k的妖精吗？他在妖精的药方面很有一套，我想请求他的帮助。这样的话，应该会对#p2111005#有所帮助。您和他说是#p2111004#的拜托，他一定会帮忙的。请您让他帮我配点药。"/>
+                <string name="0" value="您认识#m200000000#的#b#p2012018##k吗？他很擅长妖精药剂，我想请求他帮忙。只要说是#p2111004#拜托的，他一定会听我说的。请您把这封信交给他，并请他帮#p2111005#配药。"/>
             </imgdir>
             <imgdir name="no">
-                <string name="0" value="看来您有难处啊...那样就没办法了。啊啊，这可怎么办呢..."/>
+                <string name="0" value="看来您有难处啊……那也没办法。啊啊，这可怎么办呢……"/>
             </imgdir>
         </imgdir>
     </imgdir>
     <imgdir name="3324">
         <imgdir name="0">
-            <string name="0" value="呼。#p2111004#离开#b#m200000000##k不知道已经有多少年了。竟然为了那个混蛋炼金术士而去了#m261000000#...而且竟然生下了女儿，真是没想到。我还真不知道自己都有了侄女。嗯？你问我和#p2111004#是什么关系？#p2111004#是我的姐姐。"/>
-            <string name="1" value="既然是#p2111004#的拜托的话，我当然应该帮忙。我会帮她配药。不过，如果#p2111005#这个孩子的情况真的像信上写的那样的话，这药可不容易配...如果可以的话，你能帮我个忙吗？"/>
+            <string name="0" value="呼。#p2111004#离开#b#m200000000##k不知已经多少年了。她竟然为了那个炼金术士去了#m261000000#，还生下了女儿……我真没想到自己会有侄女。你问我和#p2111004#是什么关系？#p2111004#是我的姐姐。"/>
+            <string name="1" value="既然是#p2111004#的请求，我当然会帮忙。我会给#p2111005#配药。只是，如果那孩子的情况真像信里写的那样，这药恐怕不容易配……如果可以，你能再帮我个忙吗？"/>
             <imgdir name="yes">
-                <string name="0" value="嗯...要为#p2111005#配药...这可不容易...嗯...这样吧，请你帮我搜集#b10个#t4000068##k和#b100个#t4000060##k。我先用这些配药试试。"/>
+                <string name="0" value="嗯……要为#p2111005#配药可不容易……这样吧，请你帮我搜集#b10个#t4000068##k和#b100个#t4000060##k。我先用这些材料试着配药。"/>
             </imgdir>
             <imgdir name="no">
-                <string name="0" value="不能帮忙？到了现在不帮忙是不是太过分了。你再好好想想吧。"/>
+                <string name="0" value="现在说不能帮忙吗？这件事关系到孩子的病，请你再考虑一下吧。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="嗯...材料都找到了吗？好的。在你搜集材料的时间里我已经准备好了其他需要的材料，现在我要开始配药了。这种药配制起来并不容易，请你稍等一会儿。"/>
+            <string name="0" value="嗯……材料都找到了吗？好的。在你搜集材料的时候，我已经准备好了其他需要的东西。现在我要开始配药了，这种药配制起来并不容易，请你稍等一会儿。"/>
             <imgdir name="stop">
                 <imgdir name="item">
-                    <string name="0" value="材料还没搜集齐吗？一共是#b10个#t4000068##k和#b100个#t4000060##k。别忘了，一定要搜集齐。"/>
+                    <string name="0" value="材料还没搜集齐吗？一共需要#b10个#t4000068##k和#b100个#t4000060##k。别忘了，一定要搜集齐。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
     </imgdir>
     <imgdir name="3325">
         <imgdir name="0">
-            <string name="0" value="嗯...你来的正好。药已经配好了。来，这是交给#p2111004#的信。你把它和药一起交给她。你现在马上出发去#m261000000#吧。"/>
+            <string name="0" value="嗯……你来得正好。药已经配好了。来，这是交给#p2111004#的信。请把它和药一起交给她。现在就出发去#m261000000#吧。"/>
             <imgdir name="yes">
-                <string name="0" value="虽然是尽我的全力配制的药，但是不知道有没有效...不知道像#p2111005#这样的特殊情况适不适用...嗯...不管怎样，先把药和信交给#b#p2111004##k吧。"/>
+                <string name="0" value="虽然这是我尽力配制的药，但我也不知道有没有效……也不知道#p2111005#这样的特殊情况是否适用……不管怎样，先把药和信交给#b#p2111004##k吧。"/>
             </imgdir>
             <imgdir name="no">
-                <string name="0" value="嗯...看样子你还不想回#m261000000#。那等你要回#m261000000#的时候再来找我吧。"/>
+                <string name="0" value="嗯……看样子你还不想回#m261000000#。那等你准备回去的时候再来找我吧。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="啊...您好。旅行者...见到#p2012018#了吗？啊，这就是给孩子配的药啊。还有信...很久没有和弟弟联系，觉得很对不起他。真是太好了...现在有了药，应该能松一口气了。"/>
+            <string name="0" value="啊……您好，旅行者。见到#p2012018#了吗？啊，这就是给孩子配的药，还有信……我很久没有和弟弟联系，一直觉得对不起他。现在有了药，终于可以稍微松一口气了。"/>
             <imgdir name="yes">
-                <string name="0" value="只要#p2111005#能健康，什么事情我都愿意去做。他已经不在了，#p2111005#就是我的全部..."/>
+                <string name="0" value="只要#p2111005#能恢复健康，什么事情我都愿意去做。他已经不在了，#p2111005#就是我的全部……"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="npc">
-                    <string name="0" value="你还没回去找#b#p2111004##k吗？我很担心侄女的病情。快回去吧。"/>
+                    <string name="0" value="你还没回去找#b#p2111004##k吗？我很担心侄女的病情，快回去吧。"/>
                 </imgdir>
                 <imgdir name="item">
-                    <string name="0" value="您还没去找#b#p2012018##k吗？您去找他的话，他一定会为#p2111005#配药的。"/>
+                    <string name="0" value="您还没去找#b#p2012018##k吗？请把信交给他，他一定会为#p2111005#配药的。"/>
                 </imgdir>
             </imgdir>
             <imgdir name="lost">

@@ -17751,8 +17751,20 @@
   </imgdir>
   <imgdir name="29400">
     <imgdir name="0">
+      <string name="0" value="#v1142004:# #e#b#t1142004##k#n\n\nHunt 100000 eligible monsters within 30 days to receive this medal.\n\nWill you accept the challenge?"/>
+      <imgdir name="yes">
+        <string name="0" value="The challenge has begun. Hunt as many eligible monsters as you can within the time limit."/>
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="Come back when you are ready."/>
+      </imgdir>
     </imgdir>
     <imgdir name="1">
+      <imgdir name="stop">
+        <imgdir name="npc">
+          <string name="0" value="You have not completed the hunting goal yet. Keep going."/>
+        </imgdir>
+      </imgdir>
     </imgdir>
   </imgdir>
   <imgdir name="29500">
@@ -17808,14 +17820,50 @@
   </imgdir>
   <imgdir name="29505">
     <imgdir name="0">
+      <string name="0" value="#v1142077:# #e#b#t1142077##k\n\n - Most victories in Monster Carnival 2\n\n#nWould you like to confirm whether you qualify for this medal?"/>
+      <imgdir name="stop">
+      </imgdir>
+      <imgdir name="yes">
+        <string name="0" value="Keep challenging and winning in Monster Carnival 2. That is the best way to prove your strength. Whenever you believe you qualify, come back and I will review your record."/>
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="If you want the honor of absolute victory, keep challenging Monster Carnival 2."/>
+      </imgdir>
     </imgdir>
     <imgdir name="1">
+      <string name="0" value="Let me see whether you have the most victories in Monster Carnival 2."/>
+      <imgdir name="yes">
+        <string name="0" value="I declare you the owner of #b#t1142077##k. If you want to challenge for a new title, please come see me again anytime."/>
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="You do not yet qualify for #b#t1142077##k. Please come back after earning more victories in Monster Carnival 2."/>
+        </imgdir>
+      </imgdir>
     </imgdir>
   </imgdir>
   <imgdir name="29506">
     <imgdir name="0">
+      <string name="0" value="#v1142078:# #e#b#t1142078##k\n\n - Highest victory rate in Monster Carnival 2\n\n#nWould you like to confirm whether you qualify for this medal?"/>
+      <imgdir name="stop">
+      </imgdir>
+      <imgdir name="yes">
+        <string name="0" value="Maintaining a steady victory rate is what makes a true Carnival genius. Whenever you believe you qualify, come back and I will review your record."/>
+      </imgdir>
+      <imgdir name="no">
+        <string name="0" value="If you want to prove your talent, keep challenging Monster Carnival 2."/>
+      </imgdir>
     </imgdir>
     <imgdir name="1">
+      <string name="0" value="Let me see whether you have the highest victory rate in Monster Carnival 2."/>
+      <imgdir name="yes">
+        <string name="0" value="I declare you the owner of #b#t1142078##k. If you want to challenge for a new title, please come see me again anytime."/>
+      </imgdir>
+      <imgdir name="stop">
+        <imgdir name="item">
+          <string name="0" value="You do not yet qualify for #b#t1142078##k. Please come back after earning a higher victory rate in Monster Carnival 2."/>
+        </imgdir>
+      </imgdir>
     </imgdir>
   </imgdir>
   <imgdir name="29507">
