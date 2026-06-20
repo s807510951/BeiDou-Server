@@ -45,8 +45,8 @@
     <imgdir name="1002002">
         <string name="name" value="佩森"/>
         <string name="func" value="导游"/>
-        <string name="n0" value="你不想去美丽的佛罗利纳海边吗?"/>
-        <string name="n1" value="金银岛附近有叫做佛罗利纳海边的梦幻般的海滩。"/>
+        <string name="n0" value="想去美丽的黄金海滩看看吗？"/>
+        <string name="n1" value="金银岛附近有一片风景优美的黄金海滩。"/>
     </imgdir>
     <imgdir name="1002003">
         <string name="name" value="智慧爷爷"/>
@@ -2295,9 +2295,9 @@
         <string name="w2" value="左上角小地图说明：蓝点－地图跳转点、黄点－自己的位置、红点－其他玩家、绿点－NCP位置、橙色点－与你组队的玩家"/>
     </imgdir>
     <imgdir name="2002000">
-        <string name="name" value="鲁皮"/>
-        <string name="n0" value="想回魔法密林去的就跟我说吧~"/>
-        <string name="n1" value="欢迎光临~"/>
+        <string name="name" value="露妮"/>
+        <string name="n0" value="想回原来的地方就来找我吧~"/>
+        <string name="n1" value="欢迎来到幸福村~"/>
     </imgdir>
     <imgdir name="2002001">
         <string name="name" value="鲁迪"/>
@@ -3017,10 +3017,10 @@
     </imgdir>
     <imgdir name="2040017">
         <string name="name" value="冒险勇者 绿虎"/>
-        <string name="d0" value="我是地球防御本部派来执行重要任务的。这里很危险，一般人不要出入。"/>
-        <string name="d1" value="在这鲁斯韦尔草原出没很多外星人，是特别管理地区。现在攻击开始了，一般人不能在这里停留。我要去执行任务了。。"/>
-        <string name="n0" value="有我们，这里一定安全。你放心吧！"/>
-        <string name="n1" value="出发时间。。。过去了？"/>
+        <string name="d0" value="我是地球防卫总部派来执行重要任务的。这里非常危险，普通人请不要靠近。"/>
+        <string name="d1" value="鲁斯韦尔草原经常有外星人出没，因此这里被列为特别管制区域。战斗还在持续，普通人不宜久留。我还要回总部处理任务，后会有期！"/>
+        <string name="n0" value="只要有我们在，这里一定会安全。放心吧！"/>
+        <string name="n1" value="我们……错过出发时间了吗？"/>
     </imgdir>
     <imgdir name="2040018">
         <string name="name" value="冒险勇者 熊猫"/>
@@ -3681,9 +3681,9 @@
         <string name="name" value="次元空间入口"/>
     </imgdir>
     <imgdir name="2060103">
-        <string name="name" value="Norrington"/>
-        <string name="n0" value="I feel a mysterious current of air blowing."/>
-        <string name="n1" value="Their spirits must still be lingering here."/>
+        <string name="name" value="诺林顿"/>
+        <string name="n0" value="我感到一股神秘的气流正在吹过。"/>
+        <string name="n1" value="他们的灵魂一定还徘徊在这里。"/>
     </imgdir>
     <imgdir name="2070000">
         <string name="name" value="鲁先生"/>
@@ -4708,16 +4708,16 @@
         <string name="name" value="王妃的装饰柜"/>
     </imgdir>
     <imgdir name="2103003">
-        <string name="name" value="阿里安特民宅１"/>
+        <string name="name" value="放置食物"/>
     </imgdir>
     <imgdir name="2103004">
-        <string name="name" value="阿里安特民宅２"/>
+        <string name="name" value="放置食物"/>
     </imgdir>
     <imgdir name="2103005">
-        <string name="name" value="阿里安特民宅４"/>
+        <string name="name" value="放置食物"/>
     </imgdir>
     <imgdir name="2103006">
-        <string name="name" value="阿里安特民宅６"/>
+        <string name="name" value="放置食物"/>
     </imgdir>
     <imgdir name="2103007">
         <string name="name" value="宝物箱"/>
@@ -4825,7 +4825,7 @@
     <imgdir name="2111004">
         <string name="name" value="琵丽雅"/>
         <string name="d0" value="炼金术和妖精是相克的．但是还好由于蒙特鸠的协会长保护，我们才得以共存．"/>
-        <string name="d1" value="很早之前我生活在天空之城.与妹妹一起在云彩公元散步真的很开心..."/>
+        <string name="d1" value="很早以前我生活在天空之城，和弟弟一起在云彩公园散步真的很开心……"/>
         <string name="n0" value="用炼金术制作的假光，但是还是很漂亮吧？"/>
         <string name="n1" value="还好有琦尼.要是连这个孩子都没有会怎样呢..."/>
     </imgdir>
@@ -6277,8 +6277,8 @@
     <imgdir name="9120000">
         <string name="name" value="阿利博士"/>
         <string name="func" value="武器防具商人"/>
-        <string name="n0" value="武器要选自己已经有的吧…"/>
-        <string name="n1" value="注意可別不小心碰到了!"/>
+        <string name="n0" value="武器还是要选适合自己的。"/>
+        <string name="n1" value="请小心挑选，别碰坏了哦！"/>
     </imgdir>
     <imgdir name="9120001">
         <string name="name" value="花子"/>
@@ -6303,8 +6303,8 @@
     <imgdir name="9120004">
         <string name="name" value="灰源"/>
         <string name="func" value="桑拿经理"/>
-        <string name="n0" value="啦!啦!啦! 给你毛巾ー"/>
-        <string name="n1" value="噜!嚕!嚕!这是限量销售的喔!"/>
+        <string name="n0" value="啦！啦！啦！毛巾给你。"/>
+        <string name="n1" value="噜！噜！噜！这可是限量销售哦！"/>
     </imgdir>
     <imgdir name="9120005">
         <string name="name" value="由美"/>
@@ -6314,72 +6314,72 @@
         <string name="n1" value="今天可是最好的机会～"/>
     </imgdir>
     <imgdir name="9120006">
-        <string name="name" value="繪里香"/>
-        <string name="d0" value="大特價喔！"/>
-        <string name="n0" value="本地首次出現！"/>
-        <string name="n1" value="主角就是我！"/>
+        <string name="name" value="绘里香"/>
+        <string name="d0" value="大特价哦！"/>
+        <string name="n0" value="本地首次登场！"/>
+        <string name="n1" value="今天的主角就是我！"/>
     </imgdir>
     <imgdir name="9120007">
-        <string name="name" value="黑澤"/>
-        <string name="d0" value="大特價喔！"/>
-        <string name="n0" value="喂！不能按啊！"/>
-        <string name="n1" value="請排列整齊喔！"/>
+        <string name="name" value="黑泽"/>
+        <string name="d0" value="大特价哦！"/>
+        <string name="n0" value="喂！不要乱按啊！"/>
+        <string name="n1" value="请排好队哦！"/>
     </imgdir>
     <imgdir name="9120008">
         <string name="name" value="勇助"/>
-        <string name="d0" value="這是我釣到的魚！"/>
-        <string name="n0" value="這是我釣到的魚！"/>
-        <string name="n1" value="釣魚最棒了！"/>
+        <string name="d0" value="这是我钓到的鱼！"/>
+        <string name="n0" value="这是我钓到的鱼！"/>
+        <string name="n1" value="钓鱼最棒了！"/>
     </imgdir>
     <imgdir name="9120009">
         <string name="name" value="良太"/>
-        <string name="func" value="项目交易"/>
-        <string name="n0" value="要不要寄放道具和楓幣啊？就放在我這裡吧！"/>
-        <string name="n1" value="請放心地把東西寄放在這裡的倉庫吧！"/>
+        <string name="func" value="仓库管理员"/>
+        <string name="n0" value="要寄放道具或金币吗？放心交给我吧！"/>
+        <string name="n1" value="请放心把东西寄放在这里的仓库吧！"/>
     </imgdir>
     <imgdir name="9120010">
         <string name="name" value="伏特加"/>
-        <string name="func" value="项目交易"/>
-        <string name="n0" value="要不要來杯好喝的咖啡？"/>
-        <string name="n1" value="放~輕~鬆~"/>
+        <string name="func" value="物品交换"/>
+        <string name="n0" value="要不要来杯好喝的咖啡？"/>
+        <string name="n1" value="放～轻～松～"/>
     </imgdir>
     <imgdir name="9120011">
         <string name="name" value="美代子"/>
-        <string name="d0" value="嗚嗚嗚~該怎麼辦呢？"/>
-        <string name="d1" value="嗚嗚嗚嗚~"/>
-        <string name="n0" value="嗚嗚嗚~該怎麼辦呢？"/>
-        <string name="n1" value="嗚嗚嗚嗚~"/>
+        <string name="d0" value="呜呜呜～该怎么办呢？"/>
+        <string name="d1" value="呜呜呜呜～"/>
+        <string name="n0" value="呜呜呜～该怎么办呢？"/>
+        <string name="n1" value="呜呜呜呜～"/>
     </imgdir>
     <imgdir name="9120012">
-        <string name="name" value="受傷的貓"/>
-        <string name="d0" value="糟糕~喵~"/>
-        <string name="d1" value="好餓喔！喵~"/>
-        <string name="n0" value="好餓喔！喵~"/>
-        <string name="n1" value="糟糕~喵~"/>
+        <string name="name" value="受伤的猫"/>
+        <string name="d0" value="糟糕～喵～"/>
+        <string name="d1" value="好饿哦！喵～"/>
+        <string name="n0" value="好饿哦！喵～"/>
+        <string name="n1" value="糟糕～喵～"/>
     </imgdir>
     <imgdir name="9120013">
-        <string name="name" value="波斯貓"/>
-        <string name="d0" value="嗚~喵~"/>
-        <string name="n0" value="嗚~喵~"/>
-        <string name="n1" value="嗚哇~"/>
+        <string name="name" value="波斯猫"/>
+        <string name="d0" value="呜～喵～"/>
+        <string name="n0" value="呜～喵～"/>
+        <string name="n1" value="呜哇～"/>
     </imgdir>
     <imgdir name="9120014">
-        <string name="name" value="目幕警官"/>
-        <string name="d0" value="一陣風吹過來耶~！"/>
-        <string name="n0" value="一陣風吹過來耶~！"/>
-        <string name="n1" value="這個城鎮的和平由我們來守護！"/>
+        <string name="name" value="目暮警官"/>
+        <string name="d0" value="一阵风吹过来了～！"/>
+        <string name="n0" value="一阵风吹过来了～！"/>
+        <string name="n1" value="这个城镇的和平由我们来守护！"/>
     </imgdir>
     <imgdir name="9120015">
-        <string name="name" value="鈴木"/>
-        <string name="d0" value="一陣風吹過來耶~！"/>
-        <string name="n0" value="光有氣勢是不行的，請不要妨礙大家好嗎？"/>
-        <string name="n1" value="可不是沒事在試探力氣，我們可是拼了命在戰鬥。"/>
+        <string name="name" value="铃木"/>
+        <string name="d0" value="一阵风吹过来了～！"/>
+        <string name="n0" value="光有气势可不行，请不要妨碍大家，好吗？"/>
+        <string name="n1" value="我们不是在随便试探实力，而是在拼命战斗。"/>
     </imgdir>
     <imgdir name="9120016">
-        <string name="name" value="小嵐"/>
-        <string name="d0" value="這次我是主角喔！"/>
-        <string name="n0" value="這次我是主角喔！"/>
-        <string name="n1" value="唉呀！風太大了！"/>
+        <string name="name" value="小岚"/>
+        <string name="d0" value="这次我是主角哦！"/>
+        <string name="n0" value="这次我是主角哦！"/>
+        <string name="n1" value="哎呀！风太大了！"/>
     </imgdir>
     <imgdir name="9120017">
         <string name="name" value="嘉美"/>
@@ -6398,8 +6398,8 @@
     <imgdir name="9120019">
         <string name="name" value="灰源"/>
         <string name="func" value="桑拿经理"/>
-        <string name="n0" value="啦!啦!啦! 毛巾来了!"/>
-        <string name="n1" value="噜!噜!噜!  这可是限量销售的喔!"/>
+        <string name="n0" value="啦！啦！啦！毛巾来了！"/>
+        <string name="n1" value="噜！噜！噜！这可是限量销售哦！"/>
     </imgdir>
     <imgdir name="9120020">
         <string name="name" value="民修塔人"/>
@@ -6413,13 +6413,13 @@
     </imgdir>
     <imgdir name="9120023">
         <string name="name" value="光晏"/>
-        <string name="n0" value=" 镭射光眼中出来！"/>
-        <string name="n1" value="一天一餐！"/>
+        <string name="n0" value="眼睛里好像要射出光来了！"/>
+        <string name="n1" value="一天一顿也要打起精神！"/>
     </imgdir>
     <imgdir name="9120024">
         <string name="name" value="新八"/>
-        <string name="n0" value="谢谢"/>
-        <string name="n1" value="谢谢所有的一确。"/>
+        <string name="n0" value="谢谢。"/>
+        <string name="n1" value="谢谢大家的一切。"/>
     </imgdir>
     <imgdir name="9120100">
         <string name="name" value="本田"/>
@@ -6653,7 +6653,7 @@
         <string name="n1" value="婚礼怎样?"/>
     </imgdir>
     <imgdir name="9201023">
-        <string name="name" value="废气都市NANA"/>
+        <string name="name" value="NANA"/>
         <string name="func" value="爱情仙子"/>
         <string name="n0" value="我在等你证明对所爱之人的忠诚！"/>
         <string name="n1" value="爱的证明至关重要！"/>
@@ -7029,11 +7029,11 @@
     </imgdir>
     <imgdir name="9201085">
         <string name="name" value="尼古拉斯"/>
-        <string name="d0" value="我们已经找到了所有的方法你！"/>
-        <string name="d1" value="我们已经找到了所有的方法你！ 我只是卖给我上次冒险岛游戏卡！您可能需要检查其他城市更冒险岛游戏卡！务必做家务杂事的爸爸妈妈第一次！"/>
-        <string name="func" value="CVS里盖伊"/>
-        <string name="n0" value="我们已经找到了所有的方法你！"/>
-        <string name="n1" value="冒险岛游戏卡作出巨大礼物送给您和您的朋友。节日快乐！"/>
+        <string name="d0" value="我们为你的每一份心意都准备了好东西！"/>
+        <string name="d1" value="糟糕！我刚刚卖掉了最后一张冒险岛游戏卡！你可以去其他城镇看看还有没有。记得先帮爸爸妈妈做完家务哦！"/>
+        <string name="func" value="游戏卡销售员"/>
+        <string name="n0" value="我们为你的每一份心意都准备了好东西！"/>
+        <string name="n1" value="冒险岛游戏卡很适合作为送给你和朋友的礼物。节日快乐！"/>
     </imgdir>
     <imgdir name="9201086">
         <string name="name" value="安迪"/>
@@ -7152,11 +7152,11 @@
         <string name="n1" value="我已被送往...关键系统错误！ &lt;Blue Screen&gt; 。 "/>
     </imgdir>
     <imgdir name="9201102">
-        <string name="name" value="Stirgeman"/>
-        <string name="d0" value="从来没有恐惧， Stirgeman就在这里！"/>
-        <string name="d1" value="Stirgehood HOOO 〜"/>
-        <string name="n0" value="从来没有恐惧， Stirgeman就在这里！"/>
-        <string name="n1" value="Stirgehood HOOO 〜"/>
+        <string name="name" value="斯廷吉曼"/>
+        <string name="d0" value="不要害怕，斯廷吉曼就在这里！"/>
+        <string name="d1" value="斯廷吉守护者，出动！"/>
+        <string name="n0" value="不要害怕，斯廷吉曼就在这里！"/>
+        <string name="n1" value="斯廷吉守护者，出动！"/>
     </imgdir>
     <imgdir name="9201103">
         <string name="name" value="里德利"/>
@@ -7350,10 +7350,10 @@
         <string name="n1" value="Please keep the park safe. Protect us from the Targa and Scallion"/>
     </imgdir>
     <imgdir name="9201135">
-        <string name="name" value="Audrey"/>
-        <string name="func" value="Malaysia Tour Guide"/>
-        <string name="n0" value="Malaysia is a beautiful city. Are you excited to find out new quests in there?"/>
-        <string name="n1" value="Have you ever visited the Fantasy Theme Park? You will be amazed!"/>
+        <string name="name" value="奥黛丽"/>
+        <string name="func" value="马来西亚旅游向导"/>
+        <string name="n0" value="马来西亚风景迷人，也有许多新的冒险在等着你。准备好出发了吗？"/>
+        <string name="n1" value="你去过梦幻主题公园吗？那里一定会让你大开眼界！"/>
     </imgdir>
     <imgdir name="9201136">
         <string name="name" value="Olivia"/>
@@ -7706,11 +7706,11 @@
         <string name="n1" value="圣诞老人来到小镇〜 "/>
     </imgdir>
     <imgdir name="9250054">
-        <string name="name" value="Bicho"/>
-        <string name="d0" value="雪人！我喜欢它！什么是冬季喜欢雪人！"/>
-        <string name="d1" value="Ahhh ....~~~我的双手冻结...请帮我作出最大的雪人世界。 ^ ^ "/>
-        <string name="n0" value="辊〜辊辊雪〜 〜"/>
-        <string name="n1" value="我要作出最大的雪人在世界上！"/>
+        <string name="name" value="比乔"/>
+        <string name="d0" value="雪人！我最喜欢雪人了！没有什么比雪人更有冬天的感觉。"/>
+        <string name="d1" value="啊……我的手都冻僵了。请帮我一起堆出世界上最大的雪人吧！"/>
+        <string name="n0" value="滚呀滚，把雪滚成大雪球～"/>
+        <string name="n1" value="我要堆出世界上最大的雪人！"/>
     </imgdir>
     <imgdir name="9270000">
         <string name="name" value="枫叶电视"/>
@@ -7824,10 +7824,10 @@
         <string name="n1" value="要变更您的眼睛的颜色，以寻找更具吸引力？"/>
     </imgdir>
     <imgdir name="9270027">
-        <string name="name" value="Alwyn"/>
-        <string name="func" value="特产"/>
-        <string name="n0" value="供应当地粮食这里！"/>
-        <string name="n1" value="所有你可以看到，吃在新加坡！"/>
+        <string name="name" value="阿尔文"/>
+        <string name="func" value="当地特产"/>
+        <string name="n0" value="这里出售本地美食！"/>
+        <string name="n1" value="在新加坡，边逛边吃，尽情享受吧！"/>
     </imgdir>
     <imgdir name="9270028">
         <string name="name" value="阿德里安"/>
@@ -8619,7 +8619,7 @@
     </imgdir>
     <imgdir name="9330045">
         <string name="name" value="渔场管理人余夫"/>
-        <string name="func" value="잡화 상인"/>
+        <string name="func" value="钓鱼场管理员"/>
         <string name="n0" value="要不要进来试一试？钓鱼会给你意想不到的收获！"/>
         <string name="n1" value="钓鱼是结合耐力的艺术！"/>
         <string name="n2" value="拉起鱼竿的瞬间快感~爽！无法用语言形容~"/>
