@@ -27,6 +27,7 @@ import org.gms.client.autoban.AutobanFactory;
 import org.gms.client.command.CommandsExecutor;
 import org.gms.net.AbstractPacketHandler;
 import org.gms.net.packet.InPacket;
+import org.gms.server.beauty.BeautyPackets;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.gms.server.ChatLogger;
@@ -50,6 +51,10 @@ public final class GeneralChatHandler extends AbstractPacketHandler {
             return;
         }
         char heading = s.charAt(0);
+        if (s.equalsIgnoreCase("@beauty")) {
+            c.sendPacket(BeautyPackets.beautyOpen());
+            return;
+        }
         if (CommandsExecutor.isCommand(c, s)) {
             CommandsExecutor.getInstance().handle(c, s);
         } else if (heading != '/') {

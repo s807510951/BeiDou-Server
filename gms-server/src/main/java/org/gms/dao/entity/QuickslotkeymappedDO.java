@@ -29,6 +29,6 @@ public class QuickslotkeymappedDO implements Serializable {
     @Id
     private Integer accountid;
 
-    private Long keymap;
+    private byte[] keymap;
 
 }
