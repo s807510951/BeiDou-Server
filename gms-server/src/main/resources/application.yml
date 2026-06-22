@@ -35,6 +35,7 @@ spring:
   flyway:
     # 禁用版本验证
     validate-on-migrate: false
+    out-of-order: true
   servlet:
     # 默认文件大小就是这里设置的，按需修改
     multipart:
