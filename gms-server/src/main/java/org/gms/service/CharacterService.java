@@ -467,6 +467,11 @@ public class CharacterService {
             accountStorage = world.getAccountStorage(charactersDO.getAccountid());
         }
         chr.setStorage(accountStorage);
+        // Storage Bag (ore/scroll/chair/mount) - per CHARACTER, loaded on channel-server entry
+        chr.setOreStorage(org.gms.server.OreStorage.loadOreStorage(cid));
+        chr.setScrollStorage(org.gms.server.OreStorage.loadScrollStorage(cid));
+        chr.setChairStorage(org.gms.server.OreStorage.loadChairStorage(cid));
+        chr.setMountStorage(org.gms.server.OreStorage.loadMountStorage(cid));
         chr.reapplyLocalStats();
         chr.changeHpMp(charactersDO.getHp(), charactersDO.getMp(), true);
         return chr;

@@ -25,6 +25,7 @@ import org.gms.constants.net.ServerConstants;
 import org.gms.net.netty.LoginServer;
 import org.gms.net.opcodes.Opcode;
 import org.gms.net.opcodes.RecvOpcode;
+import org.gms.net.server.channel.handlers.BagWindowHandler;
 import org.gms.net.server.channel.handlers.*;
 import org.gms.net.server.handlers.CustomPacketHandler;
 import org.gms.net.server.handlers.KeepAliveHandler;
@@ -316,5 +317,6 @@ public final class PacketProcessor {
         registerHandler(RecvOpcode.CHANGE_QUICKSLOT, new QuickslotKeyMappedModifiedHandler());
         registerHandler(RecvOpcode.SET_HPMPALERT, new SetHpMpAlertHandler());
         registerHandler(RecvOpcode.BEAUTY_ACTION, new BeautyHandler());
+        registerHandler(RecvOpcode.BAG_WINDOW, new BagWindowHandler());
     }
 }

@@ -7,3 +7,7 @@ docker-db-data
 .idea
 scripts/lieDetector/
 scripts-zh-CN/lieDetector/
+jdk*/
+*.jar
+
+

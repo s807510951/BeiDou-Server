@@ -60,6 +60,23 @@ public final class ItemConstants {
         }
     }
 
+    // Maker item ids - items that go into the ore bag (ore + maker materials)
+    private static final Set<Integer> makerItemIds = Set.of(
+        // ores and refined materials (400xxxx range, Etc)
+        4010000, 4010001, 4010002, 4010003, 4010004, 4010005, 4010006, 4010007,
+        4020000, 4020001, 4020002, 4020003, 4020004, 4020005, 4020006, 4020007, 4020008,
+        4011000, 4011001, 4011002, 4011003, 4011004, 4011005, 4011006,
+        4021000, 4021001, 4021002, 4021003, 4021004, 4021005, 4021006, 4021007, 4021008,
+        // crystals and jewel materials
+        4004000, 4004001, 4004002, 4004003, 4004004,
+        4005000, 4005001, 4005002, 4005003, 4005004,
+        // monster crystals (maker)
+        4260000, 4260001, 4260002, 4260003, 4260004, 4260005,
+        4170000, 4170001, 4170002, 4170003, 4170004, 4170005,
+        4130000, 4130001, 4130002, 4130003,
+        4032004, 4032005, 4032006, 4032007, 4032008, 4032009
+    );
+
     public static int getFlagByInt(int type) {
         if (type == 128) {
             return PET_COME;
@@ -367,5 +384,26 @@ public final class ItemConstants {
 
     public static boolean isValidPetIndex(byte petIndex) {
         return petIndex >= 0 && petIndex < 3;
+    }
+
+    public static boolean isOreBagAllowed(int itemId) {
+        // ores and maker materials (Etc 400xxxx) + the explicit makerItemIds set
+        return (itemId / 1000000 == 4 && itemId / 10000 % 100 == 0)
+                || makerItemIds.contains(itemId);
+    }
+
+    public static boolean isScrollBagAllowed(int itemId) {
+        // scrolls (204xxxx) + white scroll (2340000)
+        return itemId / 10000 == 204 || itemId == 2340000;
+    }
+
+    public static boolean isChairBagAllowed(int itemId) {
+        // chairs (301xxxx)
+        return itemId / 1000000 == 3 && itemId / 100000 % 10 == 0 && itemId / 10000 % 10 == 1;
+    }
+
+    public static boolean isMountBagAllowed(int itemId) {
+        // mounts (1902xxxx + 1912xxxx) - cash/equip
+        return itemId / 1000 == 1902 || itemId / 1000 == 1912;
     }
 }

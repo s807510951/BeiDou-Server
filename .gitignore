@@ -7,11 +7,8 @@
 !.github/ISSUE_TEMPLATE/
 !.github/workflows/
 .vscode
-功能开发/
-版本/
-脚本/
 build.bat
-sql/
+
 
 
 

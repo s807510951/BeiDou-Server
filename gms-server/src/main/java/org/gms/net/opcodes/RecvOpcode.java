@@ -204,6 +204,7 @@ public enum RecvOpcode implements Opcode {
     MTS_OPERATION(0xFD), // MTS操作
     USE_MAPLELIFE(0x100), // 使用MapleLife
     USE_HAMMER(0x104), // 使用锤子
+    BAG_WINDOW(0x3724), // 背包窗口操作
     BEAUTY_ACTION(0x174), // 美容窗口操作
 
     SET_HPMPALERT(0x1000), // 设置HP/MP警报

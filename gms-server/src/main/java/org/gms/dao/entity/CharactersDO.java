@@ -202,4 +202,16 @@ public class CharactersDO implements Serializable {
 
     private Long jailexpire;
 
+    @Column("autoOreStorage")
+    private Boolean autoOreStorage;
+
+    @Column("autoScrollStorage")
+    private Boolean autoScrollStorage;
+
+    @Column("autoChairStorage")
+    private Boolean autoChairStorage;
+
+    @Column("autoMountStorage")
+    private Boolean autoMountStorage;
+
 }

@@ -6,8 +6,8 @@
 
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU Affero General Public License version 3
- as published by the Free Software Foundation. You may not use, modify
- or distribute this program under any other version of the
+ as published by the Free Software Foundation. You may not use, modify or distribute
+ this program under any other version of the
  GNU Affero General Public License.
 
  This program is distributed in the hope that it will be useful,
@@ -46,7 +46,11 @@ public enum ItemFactory {
     MERCHANT(6, false),
     CASH_OVERALL(7, true),
     MARRIAGE_GIFTS(8, false),
-    DUEY(9, false);
+    DUEY(9, false),
+    OREBAG(10, false),
+    SCROLLBAG(11, false),
+    CHAIRBAG(12, false),
+    MOUNTBAG(13, false);
     private final int value;
     private final boolean account;
 

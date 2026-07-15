@@ -7531,4 +7531,26 @@ public class PacketCreator {
         return p;
     }
 
+    // ===================== Storage Bag (ore/scroll/chair/mount) =====================
+    // Snapshot of one bag kind, sent via SendOpcode.BAG_WINDOW after every bag action.
+    // Layout (matches client storagebag.cpp BagWindow::HandleSnapshotPacketImpl):
+    //   byte 1 (RESP_SNAPSHOT) · byte bagKind · short count
+    //   count×[ short slot · itemInfo ] · count×[ short qty ] · byte autoFlag
+    public static Packet bagWindowSnapshot(int bagKind, org.gms.server.OreStorage storage, boolean auto) {
+        final OutPacket p = OutPacket.create(SendOpcode.BAG_WINDOW);
+        p.writeByte(1);                 // RESP_SNAPSHOT
+        p.writeByte(bagKind);           // 0=ore 1=scroll 2=chair 3=cash
+        java.util.List<Item> items = storage.getItems();
+        p.writeShort(items.size());
+        for (int i = 0; i < items.size(); i++) {
+            p.writeShort(items.get(i).getPosition());   // real bag slot (position), not list index
+            addItemInfo(p, items.get(i), true);
+        }
+        for (int i = 0; i < items.size(); i++) {
+            p.writeShort(items.get(i).getQuantity());   // same order as the items block above
+        }
+        p.writeByte(auto ? 1 : 0);      // Auto-collect flag for this bag kind
+        return p;
+    }
+
 }
