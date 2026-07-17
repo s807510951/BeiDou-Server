@@ -17712,10 +17712,10 @@
     </imgdir>
     <imgdir name="29300">
         <imgdir name="1">
-            <string name="0" value="你成功地达到了战士200级！真是了不起的成绩。"/>
-            <string name="1" value="请收下这个"/>
+            <string name="0" value="你已经以战士的身份达到200级！做得很好！"/>
+            <string name="1" value="请收下这个。"/>
             <imgdir name="yes">
-                <string name="0" value="我勋章老人代表名誉之神宣布你是这个荣誉称号的主人。如果你想挑战新称号，请随时来找我。"/>
+                <string name="0" value="我德烈代表荣誉之神向世人宣布，你就是这个荣誉称号的主人。如果你想挑战新的称号，随时都可以再来找我。"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="npc">
@@ -17724,23 +17724,23 @@
             </imgdir>
         </imgdir>
         <imgdir name="0">
-            <string name="0" value="#v1142009# #e#b#t1142009##k\n\n - 战士200级达成\n\n#n你想看看有没有资格成为这个勋章的主人吗？"/>
+            <string name="0" value="#v1142009# #e#b#t1142009##k\n\n - 战士达到200级\n\n#n你想接受考验，看看自己是否有资格成为这个称号的主人吗？"/>
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="祝你好运。本挑战没有任何特殊限制，只要自认为实力足够，任何时候都欢迎来找我进行资格审查。另外，请注意，在没有完成本挑战或尚未放弃本挑战的情况下，不能进行其它挑战。"/>
+                <string name="0" value="祝你好运。这个挑战没有时间限制，只要你觉得自己准备好了，随时都可以回来找我。还有，在完成或放弃这个挑战之前，你不能参加其他称号挑战。"/>
             </imgdir>
             <imgdir name="no">
-                <string name="0" value="准备好了之后，请你再来找我。"/>
+                <string name="0" value="准备好之后再来找我吧。"/>
             </imgdir>
         </imgdir>
     </imgdir>
     <imgdir name="29301">
         <imgdir name="1">
-            <string name="0" value="你成功地达到了魔法师200级！真是了不起的成绩。"/>
-            <string name="1" value="请收下这个"/>
+            <string name="0" value="你已经以魔法师的身份达到200级！做得很好！"/>
+            <string name="1" value="请收下这个。"/>
             <imgdir name="yes">
-                <string name="0" value="我勋章老人代表名誉之神宣布你是这个荣誉称号的主人。如果你想挑战新称号，请随时来找我。"/>
+                <string name="0" value="我德烈代表荣誉之神向世人宣布，你就是这个荣誉称号的主人。如果你想挑战新的称号，随时都可以再来找我。"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="npc">
@@ -17749,23 +17749,23 @@
             </imgdir>
         </imgdir>
         <imgdir name="0">
-            <string name="0" value="#v1142010# #e#b#t1142010##k\n\n - 魔法师200级达成\n\n#n你想看看有没有资格成为这个勋章的主人吗？"/>
+            <string name="0" value="#v1142010# #e#b#t1142010##k\n\n - 魔法师达到200级\n\n#n你想接受考验，看看自己是否有资格成为这个称号的主人吗？"/>
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="祝你好运。本挑战没有任何特殊限制，只要自认为实力足够，任何时候都欢迎来找我进行资格审查。另外，请注意，在没有完成本挑战或尚未放弃本挑战的情况下，不能进行其它挑战。"/>
+                <string name="0" value="祝你好运。这个挑战没有时间限制，只要你觉得自己准备好了，随时都可以回来找我。还有，在完成或放弃这个挑战之前，你不能参加其他称号挑战。"/>
             </imgdir>
             <imgdir name="no">
-                <string name="0" value="准备好了之后，请你再来找我。"/>
+                <string name="0" value="准备好之后再来找我吧。"/>
             </imgdir>
         </imgdir>
     </imgdir>
     <imgdir name="29302">
         <imgdir name="1">
-            <string name="0" value="你成功地达到了弓箭手200级！真是了不起的成绩。"/>
-            <string name="1" value="请收下这个"/>
+            <string name="0" value="你已经以弓箭手的身份达到200级！做得很好！"/>
+            <string name="1" value="请收下这个。"/>
             <imgdir name="yes">
-                <string name="0" value="我勋章老人代表名誉之神宣布你是这个荣誉称号的主人。如果你想挑战新称号，请随时来找我。"/>
+                <string name="0" value="我德烈代表荣誉之神向世人宣布，你就是这个荣誉称号的主人。如果你想挑战新的称号，随时都可以再来找我。"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="npc">
@@ -17774,23 +17774,23 @@
             </imgdir>
         </imgdir>
         <imgdir name="0">
-            <string name="0" value="#v1142011# #e#b#t1142011##k\n\n - 弓箭手200级达成\n\n#n你想看看有没有资格成为这个勋章的主人吗？"/>
+            <string name="0" value="#v1142011# #e#b#t1142011##k\n\n - 弓箭手达到200级\n\n#n你想接受考验，看看自己是否有资格成为这个称号的主人吗？"/>
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="祝你好运。本挑战没有任何特殊限制，只要自认为实力足够，任何时候都欢迎来找我进行资格审查。另外，请注意，在没有完成本挑战或尚未放弃本挑战的情况下，不能进行其它挑战。"/>
+                <string name="0" value="祝你好运。这个挑战没有时间限制，只要你觉得自己准备好了，随时都可以回来找我。还有，在完成或放弃这个挑战之前，你不能参加其他称号挑战。"/>
             </imgdir>
             <imgdir name="no">
-                <string name="0" value="准备好了之后，请你再来找我。"/>
+                <string name="0" value="准备好之后再来找我吧。"/>
             </imgdir>
         </imgdir>
     </imgdir>
     <imgdir name="29303">
         <imgdir name="1">
-            <string name="0" value="你成功地达到了飞侠200级！真是了不起的成绩。"/>
-            <string name="1" value="请收下这个"/>
+            <string name="0" value="你已经以飞侠的身份达到200级！做得很好！"/>
+            <string name="1" value="请收下这个。"/>
             <imgdir name="yes">
-                <string name="0" value="我勋章老人代表名誉之神宣布你是这个荣誉称号的主人。如果你想挑战新称号，请随时来找我。"/>
+                <string name="0" value="我德烈代表荣誉之神向世人宣布，你就是这个荣誉称号的主人。如果你想挑战新的称号，随时都可以再来找我。"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="npc">
@@ -17799,23 +17799,23 @@
             </imgdir>
         </imgdir>
         <imgdir name="0">
-            <string name="0" value="#v1142012# #e#b#t1142012##k\n\n - 飞侠200级达成\n\n#n你想看看有没有资格成为这个勋章的主人吗？"/>
+            <string name="0" value="#v1142012# #e#b#t1142012##k\n\n - 飞侠达到200级\n\n#n你想接受考验，看看自己是否有资格成为这个称号的主人吗？"/>
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="祝你好运。本挑战没有任何特殊限制，只要自认为实力足够，任何时候都欢迎来找我进行资格审查。另外，请注意，在没有完成本挑战或尚未放弃本挑战的情况下，不能进行其它挑战。"/>
+                <string name="0" value="祝你好运。这个挑战没有时间限制，只要你觉得自己准备好了，随时都可以回来找我。还有，在完成或放弃这个挑战之前，你不能参加其他称号挑战。"/>
             </imgdir>
             <imgdir name="no">
-                <string name="0" value="准备好了之后，请你再来找我。"/>
+                <string name="0" value="准备好之后再来找我吧。"/>
             </imgdir>
         </imgdir>
     </imgdir>
     <imgdir name="29304">
         <imgdir name="1">
-            <string name="0" value="你成功地达到了海盗200级！真是了不起的成绩。"/>
-            <string name="1" value="请收下这个"/>
+            <string name="0" value="你已经以海盗的身份达到200级！做得很好！"/>
+            <string name="1" value="请收下这个。"/>
             <imgdir name="yes">
-                <string name="0" value="我勋章老人代表名誉之神宣布你是这个荣誉称号的主人。如果你想挑战新称号，请随时来找我。"/>
+                <string name="0" value="我德烈代表荣誉之神向世人宣布，你就是这个荣誉称号的主人。如果你想挑战新的称号，随时都可以再来找我。"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="npc">
@@ -17824,14 +17824,14 @@
             </imgdir>
         </imgdir>
         <imgdir name="0">
-            <string name="0" value="#v1142013# #e#b#t1142013##k\n\n - 海盗200级达成\n\n#n你想看看有没有资格成为这个勋章的主人吗？"/>
+            <string name="0" value="#v1142013# #e#b#t1142013##k\n\n - 海盗达到200级\n\n#n你想接受考验，看看自己是否有资格成为这个称号的主人吗？"/>
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="祝你好运。本挑战没有任何特殊限制，只要自认为实力足够，任何时候都欢迎来找我进行资格审查。另外，请注意，在没有完成本挑战或尚未放弃本挑战的情况下，不能进行其它挑战。"/>
+                <string name="0" value="祝你好运。这个挑战没有时间限制，只要你觉得自己准备好了，随时都可以回来找我。还有，在完成或放弃这个挑战之前，你不能参加其他称号挑战。"/>
             </imgdir>
             <imgdir name="no">
-                <string name="0" value="准备好了之后，请你再来找我。"/>
+                <string name="0" value="准备好之后再来找我吧。"/>
             </imgdir>
         </imgdir>
     </imgdir>
