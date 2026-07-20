@@ -17855,69 +17855,101 @@
     </imgdir>
     <imgdir name="29500">
         <imgdir name="0">
-        </imgdir>
-        <imgdir name="1">
-        </imgdir>
-    </imgdir>
-    <imgdir name="29501">
-        <imgdir name="0">
+            <string name="0" value="#v1142006:# #e#b#t1142006##k\n\n - 人气达到 1000\n\n#n你想挑战这枚勋章吗？"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="人气达到 1000 后，请再来找我接受审查。"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="准备好之后再来吧。"/>
+            </imgdir>
         </imgdir>
         <imgdir name="1">
             <imgdir name="stop">
                 <imgdir name="npc">
-                    <string name="0" value="只有打猎暗黑龙王最多的人才能获得本勋章。"/>
+                    <string name="0" value="你的人气还没有达到 1000。"/>
+                </imgdir>
+            </imgdir>
+        </imgdir>
+    </imgdir>
+    <imgdir name="29501">
+        <imgdir name="0">
+            <string name="0" value="#v1142007:# #e#b#t1142007##k\n\n - 击败暗黑龙王 1 次\n\n#n你想挑战这枚勋章吗？"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="击败暗黑龙王后，请再来找我报告。"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="准备好之后再来吧。"/>
+            </imgdir>
+        </imgdir>
+        <imgdir name="1">
+            <imgdir name="stop">
+                <imgdir name="npc">
+                    <string name="0" value="请先击败暗黑龙王 1 次。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
     </imgdir>
     <imgdir name="29502">
         <imgdir name="0">
-            <string name="0" value="#i1140003##e#b#t1140003##k\n\n#n将人气提升2万\n\n\n你想测试一下你的技能，看看是否配得上这个称号吗？"/>
+            <string name="0" value="#v1142008:# #e#b#t1142008##k\n\n - 击败品克缤 1 次\n\n#n你想挑战这枚勋章吗？"/>
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="“祝你一切顺利。没有特定的时间限制，所以只要你准备好了，就回来找我吧。”"/>
+                <string name="0" value="击败品克缤后，请再来找我报告。"/>
             </imgdir>
             <imgdir name="no">
-                <string name="0" value="当你准备好了再来吧。"/>
+                <string name="0" value="准备好之后再来吧。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
             <imgdir name="stop">
                 <imgdir name="npc">
-                    <string name="0" value="只有打猎品克缤数量最多的人才能获得本勋章。"/>
+                    <string name="0" value="请先击败品克缤 1 次。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
     </imgdir>
     <imgdir name="29503">
         <imgdir name="0">
+            <string name="0" value="#v1142014:# #e#b#t1142014##k\n\n - 贡献 10000000 金币\n\n#n你想完成这次公益贡献吗？"/>
+            <imgdir name="stop">
+            </imgdir>
+            <imgdir name="yes">
+                <string name="0" value="准备好 10000000 金币后，请再来找我。"/>
+            </imgdir>
+            <imgdir name="no">
+                <string name="0" value="准备好之后再来吧。"/>
+            </imgdir>
         </imgdir>
         <imgdir name="1">
             <imgdir name="stop">
                 <imgdir name="npc">
-                    <string name="0" value="你募捐了么？"/>
+                    <string name="0" value="完成这次公益贡献需要 10000000 金币。"/>
                 </imgdir>
                 <imgdir name="quest">
-                    <string name="0" value="你募捐了么？"/>
+                    <string name="0" value="完成这次公益贡献需要 10000000 金币。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
     </imgdir>
     <imgdir name="29505">
         <imgdir name="0">
-            <string name="0" value="#v1142077:# #e#b#t1142077##k\n\n - 怪物嘉年华2胜场数最高\n\n#n你想确认自己是否有资格拥有这枚勋章吗？"/>
+            <string name="0" value="#v1142077:# #e#b#t1142077##k\n\n - 怪物嘉年华2胜利 100 场\n\n#n你想确认自己是否有资格拥有这枚勋章吗？"/>
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="不断挑战并赢得怪物嘉年华2，是证明实力的最佳方式。只要你认为自己符合条件，随时可以回来找我接受审查。"/>
+                <string name="0" value="在怪物嘉年华2中取得 100 场胜利后，请回来接受审查。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="想要获得绝对胜利的荣誉，就继续在怪物嘉年华2中挑战吧。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="让我看看你是否拥有怪物嘉年华2中最多的胜利。"/>
+            <string name="0" value="让我看看你是否已经取得 100 场怪物嘉年华2胜利。"/>
             <imgdir name="yes">
                 <string name="0" value="我宣布你成为#b#t1142077##k的主人。如果你想挑战新的称号，请随时再来找我。"/>
             </imgdir>
@@ -17930,49 +17962,49 @@
     </imgdir>
     <imgdir name="29506">
         <imgdir name="0">
-            <string name="0" value="#v1142078:# #e#b#t1142078##k\n\n - 怪物嘉年华2胜率最高\n\n#n你想确认自己是否有资格拥有这枚勋章吗？"/>
+            <string name="0" value="#v1142078:# #e#b#t1142078##k\n\n - 怪物嘉年华2至少 50 场\n - 胜率至少 70%\n\n#n你想确认自己是否有资格拥有这枚勋章吗？"/>
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="保持稳定的胜率，才是真正的嘉年华天才。只要你认为自己符合条件，随时可以回来找我接受审查。"/>
+                <string name="0" value="保持稳定的胜率，才是真正的嘉年华天才。符合条件后，请回来接受审查。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="想证明自己的天赋，就继续在怪物嘉年华2中挑战吧。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="让我看看你是否拥有怪物嘉年华2中最高的胜率。"/>
+            <string name="0" value="让我看看你是否达到了怪物嘉年华2的场次和胜率要求。"/>
             <imgdir name="yes">
                 <string name="0" value="我宣布你成为#b#t1142078##k的主人。如果你想挑战新的称号，请随时再来找我。"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="item">
-                    <string name="0" value="你还没有获得#b#t1142078##k的资格。请在怪物嘉年华2中取得更高胜率后再来。"/>
+                    <string name="0" value="你还没有获得#b#t1142078##k的资格。请继续提升怪物嘉年华2战绩后再来。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
     </imgdir>
     <imgdir name="29507">
         <imgdir name="0">
-            <string name="0" value="#v1142082:# #e#b#t1142082##k\n\n - 宠物亲密度1400点以上\n\n#n你想看看自己有没有资格成为这个勋章的主人吗？"/>
+            <string name="0" value="#v1142082:# #e#b#t1142082##k\n\n - 宠物亲密度 1400 点以上\n\n#n你想看看自己有没有资格成为这枚勋章的主人吗？"/>
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="查看宠物说明书，就可以知道提高宠物亲密度的方法。那就祝你好运。时间没有限制，你可以考虑一下。随时欢迎你回来接受审查。"/>
+                <string name="0" value="查看宠物说明书，就可以知道提高宠物亲密度的方法。时间没有限制，准备好后随时回来接受审查。"/>
             </imgdir>
             <imgdir name="no">
                 <string name="0" value="请准备得更充分一点，然后再来。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="你和宠物已经足够亲密了！如果不是深爱着自己的宠物的话，是绝对不可能做到的。"/>
+            <string name="0" value="你和宠物已经足够亲密了！如果不是深爱着自己的宠物，是绝对不可能做到的。"/>
             <string name="1" value="请收下这个。"/>
             <imgdir name="yes">
-                <string name="0" value="我勋章老人代表名誉之神，向全世界宣布你成为了这个荣誉称号的主人。如果你想挑战新的称号，请随时来找我。"/>
+                <string name="0" value="我代表名誉之神，向全世界宣布你成为了这个荣誉称号的主人。如果你想挑战新的称号，请随时来找我。"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="item">
-                    <string name="0" value="要想获得#b可爱宠物主人#k称号，必须把宠物亲密度提高到1400点以上。如果你觉得太难，可以挑战其他称号。"/>
+                    <string name="0" value="要想获得#b可爱宠物主人#k称号，必须把宠物亲密度提高到 1400 点以上。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -17994,24 +18026,24 @@
     </imgdir>
     <imgdir name="29509">
         <imgdir name="0">
-            <string name="0" value="#v1142084:# #e#b#t1142084##k\n\n- #y2111#完成\n- #y2112#完成\n- #y2113#完成\n\n#n你想看看自己有没有资格成为这个勋章的主人吗？"/>
+            <string name="0" value="#v1142084:# #e#b#t1142084##k\n\n- #y2111#完成\n- #y2112#完成\n- #y2113#完成\n\n#n你想看看自己有没有资格成为这枚勋章的主人吗？"/>
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="没有比消灭大量的怪物更难的挑战了。请你去消灭散布在各个猎场的冒险岛的3种代表性的蘑菇怪物，完成#b危险的迷宫任务#k。完成3种#b危险的迷宫#k任务后，你可以随时来我这里接受审查。"/>
+                <string name="0" value="完成林中之城的三个危险迷宫任务后，你可以随时来我这里接受审查。"/>
             </imgdir>
             <imgdir name="no">
-                <string name="0" value="如果你能完成艰难的挑战，就可以获得两倍的奖励..."/>
+                <string name="0" value="如果你能完成艰难的挑战，就可以获得这份荣誉。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
             <string name="0" value="真了不起！你真是个有毅力的人。"/>
             <imgdir name="yes">
-                <string name="0" value="我勋章老人代表名誉之神，向全世界宣布你成为了荣誉称号#b无尽的挑战者#k的主人。如果你想挑战新的称号，请随时来找我。"/>
+                <string name="0" value="我代表名誉之神，向全世界宣布你成为了荣誉称号#b坚强的挑战者#k的主人。如果你想挑战新的称号，请随时来找我。"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="quest">
-                    <string name="0" value="- #y2111# (#u2111#)\n- #y2112# (#u2112#)\n- #y2113# (#u2113#)\n\n你好像还没有资格获得#b无尽的挑战者#k称号...请在准备完成之后再来找我。"/>
+                    <string name="0" value="- #y2111# (#u2111#)\n- #y2112# (#u2112#)\n- #y2113# (#u2113#)\n\n你好像还没有资格获得#b坚强的挑战者#k称号，请在完成之后再来找我。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -18035,24 +18067,24 @@
     </imgdir>
     <imgdir name="29512">
         <imgdir name="0">
-            <string name="0" value="#v1142083:# #e#b#t1142083##k\n\n- 必须获得 30 种或更多种怪物卡（#r每种卡片需收集5张#k）。#n\n您想测试一下自己，看看自己是否具备成为这枚勋章的拥有者的能力？"/>
+            <string name="0" value="#v1142083:# #e#b#t1142083##k\n\n- 收集 30 张怪物卡\n\n#n你想测试一下自己，看看是否具备成为这枚勋章拥有者的能力吗？"/>
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="您最多可以收集5张相同的卡片，当您获得5张相同卡片时，您可以详细了解怪物。有些卡片具有特殊的力量，可以帮助您进行冒险。当您收集 #b30 种#k卡片时，请来找我。"/>
+                <string name="0" value="收集 30 张怪物卡后，请来找我。"/>
             </imgdir>
             <imgdir name="no">
-                <string name="0" value="嗨，真遗憾。你会收集到很多关于怪物的有用的信息，这将有助于你的冒险。"/>
+                <string name="0" value="怪物卡会提供很多有用的信息，有助于你的冒险。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
-            <string name="0" value="让我们看看你是否具备被称为#b怪物专家#k的能力。你收集了多少张怪物卡？"/>
+            <string name="0" value="让我看看你是否具备被称为#b怪物博士#k的能力。你收集了多少张怪物卡？"/>
             <imgdir name="yes">
-                <string name="0" value="我勋章老人，代表荣誉之神，向全世界宣布您是#b怪物专家#k称号的所有者。如果您想尝试新称号，请随时回来找我。"/>
+                <string name="0" value="我代表名誉之神，向全世界宣布你成为#b怪物博士#k称号的主人。如果你想挑战新的称号，请随时回来找我。"/>
             </imgdir>
             <imgdir name="stop">
                 <imgdir name="item">
-                    <string name="0" value="您必须至少收集 #b30#k 种怪物卡才能获得#b怪物专家勋章#k。当您收集到至少 30 种怪物卡时，请来找我。"/>
+                    <string name="0" value="你必须至少收集 #b30#k 张怪物卡才能获得#b怪物博士勋章#k。"/>
                 </imgdir>
             </imgdir>
         </imgdir>
@@ -18083,37 +18115,37 @@
     </imgdir>
     <imgdir name="29904">
         <imgdir name="0">
-            <string name="0" value="20000小女王的问候联动任务"/>
+            <string name="0" value="完成小女王的问候后，可以领取骑士团初心者称号。"/>
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="yes"/>
+                <string name="0" value="好的。"/>
             </imgdir>
             <imgdir name="no">
-                <string name="0" value="no"/>
+                <string name="0" value="稍后再说。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
             <imgdir name="yes">
-                <string name="0" value="ㅁㄴㅇ"/>
+                <string name="0" value="你已经证明了自己是皇家骑士团的一员。"/>
             </imgdir>
         </imgdir>
     </imgdir>
     <imgdir name="29905">
         <imgdir name="0">
-            <string name="0" value="第4个任务 - 与20015小女王的问候进行联动..."/>
+            <string name="0" value="完成另一条小女王的问候后，可以领取骑士团初心者称号。"/>
             <imgdir name="stop">
             </imgdir>
             <imgdir name="yes">
-                <string name="0" value="ok\n"/>
+                <string name="0" value="好的。\n"/>
             </imgdir>
             <imgdir name="no">
-                <string name="0" value="no"/>
+                <string name="0" value="稍后再说。"/>
             </imgdir>
         </imgdir>
         <imgdir name="1">
             <imgdir name="yes">
-                <string name="0" value="那就麻烦你了"/>
+                <string name="0" value="那就麻烦你了。"/>
             </imgdir>
         </imgdir>
     </imgdir>

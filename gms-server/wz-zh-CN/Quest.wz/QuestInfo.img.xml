@@ -168,17 +168,17 @@
         <int name="order" value="1"/>
     </imgdir>
     <imgdir name="10030">
-        <string name="name" value="테오의 옛날 추억 회상 I"/>
-        <string name="0" value="리스 항구의 #b#p1002001##k에게 가면 도움을 받을 수 있다는데..."/>
-        <string name="1" value="리스 항구에서 #b#p1002001##k를 만났다. #b#p1002001##k는 나를 보더니 모험을 하면서 고생했던 젊은 시절 기억이 난다고 하면서 나를 도와주고 싶다고 했다.  #b#t4000016# 100개#k와 #b#t4000004# 50개#k를 모아오면 나의 발전가능성을 인정하고 지원을 해주겠다고 하는데... 훗! 멋진 모험가가 될 나에게 이 정도쯤이야. \n\n#t4000016# #b#c4000016#/100#k\n#t4000004# #b#c4000004#/50#k"/>
-        <string name="2" value="리스 항구에서 만난 #b#p1002001##k에게 나의 모험가로서의 자질을 보여주었다. #b#p1002001##k는 내 능력을 인정하고 여행하는데 필요한 자금을 지원해주었다. 이 자금을 밑거름 삼아 꼭 멋진 모험가가 되겠어."/>
+        <string name="name" value="特奥的往事回忆1"/>
+        <string name="0" value="我听说如果去金银岛港口的 #b#p1002001##k 那里，就能得到一些帮助……"/>
+        <string name="1" value="我在明珠港遇见了 #b#p1002001##k。见到我后，#b#p1002001##k 回忆起自己年轻时冒险的艰辛岁月，并提出愿意助我一臂之力。他承诺，只要我能收集到 100 个 #b#t4000016##k 和 50 个 #b#t4000004##k，就会认可我的潜力并给予支持……哼！对于注定要成为伟大冒险家的人来说，这种任务简直是小菜一碟。 \n\n#t4000016# #b#c4000016#/100#k\n#t4000004# #b#c4000004#/50#k"/>
+        <string name="2" value="我在明珠港向 #b#p1002001##k 展现了我作为冒险家的潜质。#b#p1002001##k 认可了我的能力，并为我的旅程提供了必要的资金。我将以此为基石，努力成为一名真正伟大的冒险家。"/>
         <int name="area" value="50"/>
     </imgdir>
     <imgdir name="10031">
-        <string name="name" value="테오의 옛날 추억 회상 II"/>
-        <string name="0" value="일전에 도움을 줬던 #b#p1002001##k를 다시 찾아가 보자."/>
-        <string name="1" value="#b#p1002001##k는 내가 얼마나 강해졌는지 증명하라고 했다.\n\n#t04000024# #b#c04000024#/80#k\n#t04000020# #b#c04000020#/100#k"/>
-        <string name="2" value="더 강해진 모습을 #b#p1002001##k에게 증명하였다."/>
+        <string name="name" value="特奥的往事回忆2"/>
+        <string name="0" value="让我们回去看看我们之前帮助过的 #b#p1002001##k。"/>
+        <string name="1" value="#b#p1002001##k 让我证明自己变得有多强。\n\n#t04000024# #b#c04000024#/80#k\n#t04000020# #b#c04000020#/100#k"/>
+        <string name="2" value="我向 #b#p1002001##k 证明了我新获得的力量。"/>
         <int name="area" value="50"/>
     </imgdir>
     <imgdir name="10032">
@@ -5764,7 +5764,7 @@
         <int name="area" value="6"/>
         <string name="0" value="达到31级之后，突然收到了#b#p1002104##k的召唤。是新的情报搜集工作吗？但是他什么都没有说……"/>
         <string name="1" value="#p1002104#说有个重要的情报，让我赶快去#b#m104000004##k找他。说是非常紧急的事情……到底是什么事情呢？"/>
-        <string name="2" value="和我说话的原来是黑色之翼变身而成的假#p1002104#。这是人偶师为了把我引出来而设置的陷阱！还好最终击败了人偶师，但是没能抓住他，让他逃走了……#p1002104#从#p1201000#那里拿到了技能之后，好像出了事情。还好#p1002104#守住了技能，他把#b斗气掌握#k技能交给了我。"/>
+        <string name="2" value="和我说话的原来是黑色之翼变身而成的假#p1002104#。这是人偶师为了把我引出来而设置的陷阱！还好最终击败了人偶师，但是没能抓住他，让他逃走了……#p1002104#从#p1201000#那里拿到了技能之后，好像出了事情。还好#p1002104#守住了技能，他把#b精准矛#k技能交给了我。"/>
         <int name="autoStart" value="1"/>
         <string name="type" value="[技能]"/>
     </imgdir>
@@ -9610,36 +9610,35 @@
     </imgdir>
     <imgdir name="29500">
         <string name="name" value="挑战勋章-冒险岛偶像明星勋章(特级)"/>
-        <string name="0" value="#b#e挑战勋章-冒险岛偶像明星勋章#n(特级)\n#k最受大家追捧的冒险家是谁呢？勋章老人将授予其#e#b冒险岛偶像明星勋章(特级)#k#n。"/>
-        <string name="1" value="#b#e挑战勋章-冒险岛偶像明星勋章#n(特级)\n\n#k - 人气度: #b#jpop##k"/>
-        <string name="2" value="#b#e挑战勋章-冒险岛偶像明星勋章#n(特级)\n\n#k - 人气度: #b#jpop##k \n\n只有世界人气度最高的人才有资格获得&apos;#b冒险岛偶像明星勋章(特级)#k&apos;的荣誉。勋章老人提醒大家只有制定好相应策略，该荣誉每月仅有一次机会挑战。"/>
+        <string name="0" value="#b#e挑战勋章-冒险岛偶像明星勋章#n(特级)\n#k人气达到 #b1000#k 后，即可领取#e#b冒险岛偶像明星勋章(特级)#k#n。"/>
+        <string name="1" value="#b#e挑战勋章-冒险岛偶像明星勋章#n(特级)\n\n#k - 需要人气度: #b1000#k\n - 当前人气度: #b#jpop##k"/>
+        <string name="2" value="#b#e挑战勋章-冒险岛偶像明星勋章#n(特级)\n\n#k达到指定人气度后获得&apos;#b冒险岛偶像明星勋章(特级)#k&apos;。"/>
         <int name="area" value="51"/>
         <int name="medalCategory" value="2"/>
         <int name="viewMedalItem" value="1142006"/>
     </imgdir>
     <imgdir name="29501">
         <string name="name" value="挑战勋章-暗黑龙王杀手勋章(特级)"/>
-        <string name="0" value="#b#e挑战勋章-暗黑龙王杀手勋章#n(特级)\n#k只有打猎暗黑龙王数量最多的冒险家才有资格获得#e#b暗黑龙王杀手勋章(特级)#k#n！勋章老人表示对于打猎了暗黑龙王却未向自己报告的一律不予承认。"/>
-        <string name="1" value="#b#e挑战勋章-暗黑龙王杀手勋章#n(特级)\n#k\n - 勋章老人所知的暗黑龙王打猎记录: #r#jmon##k 次\n\n勋章老人表示这个荣誉只授予那些在狩猎暗黑龙王后向自己报告次数最多的勇士。不过……请注意！一旦放弃挑战，下一次挑战时将从零开始计数！！！"/>
-        <string name="2" value="#b#e挑战勋章-暗黑龙王杀手勋章#n(特级)\n#k\n - 勋章老人所知的暗黑龙王打猎记录: #r#jmon##k 次\n\n向捕获暗黑龙王数量最多的一位勇士颁发&apos;#b暗黑龙王杀手勋章(特级)#k&apos;。"/>
+        <string name="0" value="#b#e挑战勋章-暗黑龙王杀手勋章#n(特级)\n#k击败暗黑龙王 #b1#k 次后，即可领取#e#b暗黑龙王杀手勋章(特级)#k#n。"/>
+        <string name="1" value="#b#e挑战勋章-暗黑龙王杀手勋章#n(特级)\n\n#k - 暗黑龙王击败记录: #r#jmon##k / 1 次"/>
+        <string name="2" value="#b#e挑战勋章-暗黑龙王杀手勋章#n(特级)\n\n#k完成个人击败暗黑龙王挑战后获得&apos;#b暗黑龙王杀手勋章(特级)#k&apos;。"/>
         <int name="area" value="51"/>
         <int name="viewMedalItem" value="1142007"/>
     </imgdir>
     <imgdir name="29502">
         <string name="name" value="挑战勋章-品克缤杀手勋章(特级)"/>
-        <string name="0" value="#b#e挑战勋章-品克缤杀手勋章#n(特级)\n#k只有打猎品克缤的数量最多的勇士才有资格获得#e#b品克缤杀手勋章(特级)#k#n！勋章老人表示对于打猎了品克缤却未向自己报告的一律不予承认。"/>
-        <string name="1" value="#b#e挑战勋章-品克缤杀手勋章#n(特级)\n#k\n - 勋章老人所知的品克缤打猎记录: #r#jmon##k 次\n\n只有将自己打猎品克缤的情况向勋章老人报告次数最多的勇士才有资格获得本荣誉。不过……请注意！一旦放弃挑战，下次挑战时将从零开始计数！！！"/>
-        <string name="2" value="#b#e挑战勋章-品克缤杀手勋章#n(特级)\n#k\n - 勋章老人所知的品克缤打猎记录: #r#jmon##k 次\n\n只有捕获品克缤数量最多的一位勇士才有资格获得&apos;#b品克缤杀手勋章(特级)#k&apos;。"/>
+        <string name="0" value="#b#e挑战勋章-品克缤杀手勋章#n(特级)\n#k击败品克缤 #b1#k 次后，即可领取#e#b品克缤杀手勋章(特级)#k#n。"/>
+        <string name="1" value="#b#e挑战勋章-品克缤杀手勋章#n(特级)\n\n#k - 品克缤击败记录: #r#jmon##k / 1 次"/>
+        <string name="2" value="#b#e挑战勋章-品克缤杀手勋章#n(特级)\n\n#k完成个人击败品克缤挑战后获得&apos;#b品克缤杀手勋章(特级)#k&apos;。"/>
         <int name="area" value="51"/>
         <int name="medalCategory" value="2"/>
         <int name="viewMedalItem" value="1142008"/>
     </imgdir>
     <imgdir name="29503">
         <string name="name" value="挑战勋章-爱心使者"/>
-        <string name="0" value="#b#e挑战勋章-爱心使者#n(特级称号)\n#k挑战只有1人可以拥有的财力和名誉的象征——#e#b爱心使者#k#n称号吧！听说现在正在选拔代表各个村庄的爱心使者。去见见名誉之神官#b#p9000040##k吧。"/>
-        <string name="1" value="#b#e挑战勋章-爱心使者#n(特级称号)\n#k\n - 剩余时间：#Qminlimit#分#Qseclimit#秒\n - 捐献数额：#b#jmoney##k金币\n\n每月初所有村庄的捐献记录初始化。达利尔叮嘱说并不单纯由捐献的金额决定称号的主人，让我发挥自己的智慧。"/>
-        <string name="2" value="#b#e挑战勋章-爱心使者#n(特级称号)\n#k\n - 剩余时间：#Qminlimit#分#Qseclimit#秒\n - 捐献村庄：#b#jm##k\n - 捐献数额：#b#jmoney##k金币\n\n达利尔叮嘱说并不单纯由捐献的金额决定称号的主人，让我发挥自己的智慧。"/>
-        <int name="timeLimit2" value="3600"/>
+        <string name="0" value="#b#e挑战勋章-爱心使者#n(特级称号)\n#k贡献 #b10000000#k 金币用于公共设施建设后，即可领取#e#b爱心使者#k#n称号。"/>
+        <string name="1" value="#b#e挑战勋章-爱心使者#n(特级称号)\n\n#k - 需要贡献金币: #b10000000#k"/>
+        <string name="2" value="#b#e挑战勋章-爱心使者#n(特级称号)\n\n#k完成固定金币贡献后获得&apos;#b爱心使者#k&apos;称号。"/>
         <int name="area" value="51"/>
         <int name="medalCategory" value="2"/>
         <int name="viewMedalItem" value="1142014"/>
@@ -9647,28 +9646,28 @@
     <imgdir name="29505">
         <string name="name" value="嘉年华百战百胜者"/>
         <int name="area" value="10"/>
-        <string name="0" value="如果你认为自己在怪物嘉年华2中拥有最多胜场，就去找休彼德蔓领取#b#t1142077##k吧！"/>
-        <string name="1" value="如果你认为自己在怪物嘉年华2中拥有最多胜场，就去找休彼德蔓领取#b#t1142077##k吧！"/>
-        <string name="2" value="已因在怪物嘉年华2中拥有最多胜场而获得#b#t1142077##k。"/>
+        <string name="0" value="在怪物嘉年华2中取得 #b100#k 场胜利后，可向休彼德蔓领取#b#t1142077##k。"/>
+        <string name="1" value="怪物嘉年华2胜场达到 #b100#k 场后，可向休彼德蔓领取#b#t1142077##k。"/>
+        <string name="2" value="已因在怪物嘉年华2中取得 #b100#k 场胜利而获得#b#t1142077##k。"/>
         <int name="medalCategory" value="2"/>
         <int name="viewMedalItem" value="1142077"/>
     </imgdir>
     <imgdir name="29506">
         <string name="name" value="嘉年华天才"/>
         <int name="area" value="10"/>
-        <string name="0" value="如果你认为自己在怪物嘉年华2中拥有最高胜率，就去找休彼德蔓领取#b#t1142078##k吧！"/>
-        <string name="1" value="如果你认为自己在怪物嘉年华2中拥有最高胜率，就去找休彼德蔓领取#b#t1142078##k吧！"/>
-        <string name="2" value="已因在怪物嘉年华2中拥有最高胜率而获得#b#t1142078##k。"/>
+        <string name="0" value="参加至少 #b50#k 场怪物嘉年华2，并保持 #b70%#k 以上胜率后，可向休彼德蔓领取#b#t1142078##k。"/>
+        <string name="1" value="怪物嘉年华2场次达到 #b50#k 场且胜率不低于 #b70%#k 后，可向休彼德蔓领取#b#t1142078##k。"/>
+        <string name="2" value="已因在怪物嘉年华2中保持优秀胜率而获得#b#t1142078##k。"/>
         <int name="medalCategory" value="2"/>
         <int name="viewMedalItem" value="1142078"/>
     </imgdir>
     <imgdir name="29507">
         <string name="name" value="挑战勋章-可爱宠物主人勋章"/>
         <int name="area" value="51"/>
-        <string name="0" value="#b#eTitle Challenge - Wonderful Pet Owner#n\n#kIf you have a pet, see if you can acquire #r1400 Closeness points#k with your pet! Dalair, on behalf of the God of Honor, is looking for passionate and caring pet owners. He says anyone who reaches #r1400 Closeness points#k with a pet will receive the #e#bWonderful Pet Owner#k#n title."/>
-        <string name="1" value="#b#eTitle Challenge - Wonderful Pet Owner#n#k\n\nAcquire #r1400#k Closeness points with your pet."/>
-        <string name="2" value="#b#eTitle Challenge - Wonderful Pet Owner#n#k\n\nYou have received the #bWonderful Pet Owner#k title and the associated medal."/>
-        <string name="demandSummary" value="Acquire 1400 Closeness points with your pet."/>
+        <string name="0" value="#b#e挑战勋章-可爱宠物主人勋章#n\n#k将任意宠物亲密度提升到 #r1400#k 后，即可领取#b可爱宠物主人#k称号。"/>
+        <string name="1" value="#b#e挑战勋章-可爱宠物主人勋章#n#k\n\n将任意宠物亲密度提升到 #r1400#k。"/>
+        <string name="2" value="#b#e挑战勋章-可爱宠物主人勋章#n#k\n\n你已获得#b可爱宠物主人#k称号和对应勋章。"/>
+        <string name="demandSummary" value="任意宠物亲密度达到 1400。"/>
         <string name="rewardSummary" value="#Wbasic# #v1142082:##t1142082:# 1"/>
         <int name="medalCategory" value="2"/>
         <int name="viewMedalItem" value="1142082"/>
@@ -9694,9 +9693,9 @@
     <imgdir name="29509">
         <string name="name" value="坚强的挑战者"/>
         <int name="area" value="51"/>
-        <string name="0" value="#b#eTitle Challenge - Persevering Challenger#n\nComplete the #k#bDangerous Dungeon!#k quest. Dalair, on behalf of the God of Honor, is looking for explorers who never cease to face challenges. He says anyone who defeats a lot of monsters in the dungeons in Sleepywood will receive the #bPersevering Challenger#k#n title."/>
-        <string name="1" value="#b#eTitle Challenge - Persevering Challenger#n#k\nComplete 3 types of #bDangerous Dungeon!#k quests in Sleepywood."/>
-        <string name="2" value="#b#eTitle Challenge - Persevering Challenger#n#k\n\nYou have acquired the #bPersevering Challenger#k title and the associated medal."/>
+        <string name="0" value="#b#e挑战勋章-坚强的挑战者#n\n#k完成林中之城的 3 个#b危险的迷宫#k任务后，即可领取#b坚强的挑战者#k称号。"/>
+        <string name="1" value="#b#e挑战勋章-坚强的挑战者#n#k\n完成林中之城的 3 个#b危险的迷宫#k任务。"/>
+        <string name="2" value="#b#e挑战勋章-坚强的挑战者#n#k\n\n你已获得#b坚强的挑战者#k称号和对应勋章。"/>
         <string name="demandSummary" value="- #y2111# (#u2111#) - #y2112# (#u2112#) - #y2113# (#u2113#)"/>
         <string name="rewardSummary" value="#Wbasic# #v1142084:##t1142084:# 1"/>
         <int name="medalCategory" value="2"/>
@@ -9712,10 +9711,10 @@
     <imgdir name="29512">
         <string name="name" value="挑战勋章-怪物博士勋章"/>
         <int name="area" value="51"/>
-        <string name="0" value="#b#eTitle Challenge - Monster Expert#n\nCollect #k#b30 Monster Cards#k. Dalair, on behalf of the God of Honor, is looking for explorers who know everything there is to know about the monsters in Maple World. He says anyone who collects more than 30 Monster Cards will receive the #bMonster Expert#k#n title."/>
-        <string name="1" value="Collect the Monster Cards, which will help you understand the tendencies, habitats, and dropped items of various monsters. Some cards have special powers that will help you in your adventures."/>
-        <string name="2" value="#b#eTitle Challenge - Monster Expert#n#k\n\nYou have received the #bMonster Expert#k title and the associated medal."/>
-        <string name="demandSummary" value="Acquire at least 30 Monster Cards."/>
+        <string name="0" value="#b#e挑战勋章-怪物博士勋章#n\n#k收集 #b30#k 张怪物卡后，即可领取#b怪物博士#k称号。"/>
+        <string name="1" value="收集怪物卡可以了解怪物的习性、栖息地和掉落物。收集 #b30#k 张怪物卡后即可完成挑战。"/>
+        <string name="2" value="#b#e挑战勋章-怪物博士勋章#n#k\n\n你已获得#b怪物博士#k称号和对应勋章。"/>
+        <string name="demandSummary" value="至少收集 30 张怪物卡。"/>
         <string name="rewardSummary" value="#Wbasic# #v1142083:##t1142083:# 1"/>
         <int name="medalCategory" value="2"/>
         <int name="viewMedalItem" value="1142083"/>
@@ -9724,10 +9723,10 @@
         <string name="name" value="新手冒险家"/>
         <int name="area" value="51"/>
         <int name="autoStart" value="1"/>
-        <string name="0" value="You can earn the #b&lt;Beginner Adventurer&gt;#k title by completing your 1st Job Advancement as an Adventurer."/>
-        <string name="1" value="Adventurers who complete the 1st Job Advancement will receive the #b&lt;Beginner Adventurer&gt;#k title. Go find NPC #p9000040#, who can be found in every town."/>
-        <string name="2" value="You have earned the #b&lt;Beginner Adventurer&gt;#k title by completing the 2nd Job Advancement as an Adventurer."/>
-        <string name="demandSummary" value="Report to NPC #b#p900040##k and receive the honorable #t1142107# Medal."/>
+        <string name="0" value="完成冒险家的1转后，即可获得#b&lt;新手冒险家&gt;#k称号。"/>
+        <string name="1" value="完成冒险家的1转后，即可获得#b&lt;新手冒险家&gt;#k称号。请前往各个村庄寻找NPC #p9000040#。"/>
+        <string name="2" value="你已完成冒险家的1转，获得了#b&lt;新手冒险家&gt;#k称号。"/>
+        <string name="demandSummary" value="向NPC #b#p9000040##k报告，并领取光荣的#t1142107#。"/>
         <string name="rewardSummary" value="#Wbasic#"/>
         <int name="autoAccept" value="1"/>
         <int name="viewMedalItem" value="1142107"/>
@@ -9736,10 +9735,10 @@
         <string name="name" value="中级冒险家"/>
         <int name="area" value="51"/>
         <int name="autoStart" value="1"/>
-        <string name="0" value="Adventurers who complete the 2nd Job Advancement will receive the #b&lt;Junior Adventurer&gt;#k title."/>
-        <string name="1" value="Adventurers who complete the 2nd Job Advancement will receive the #b&lt;Junior Adventurer&gt;#k title. Go find NPC #p9000040#, who can be found in every town."/>
-        <string name="2" value="You have earned the #b&lt;Junior Adventurer&gt;#k title by completing the 2nd Job Advancement as an Adventurer."/>
-        <string name="demandSummary" value="Report to NPC #b#p900040##k and receive the honorable #t1142108# Medal."/>
+        <string name="0" value="完成冒险家的2转后，即可获得#b&lt;中级冒险家&gt;#k称号。"/>
+        <string name="1" value="完成冒险家的2转后，即可获得#b&lt;中级冒险家&gt;#k称号。请前往各个村庄寻找NPC #p9000040#。"/>
+        <string name="2" value="你已完成冒险家的2转，获得了#b&lt;中级冒险家&gt;#k称号。"/>
+        <string name="demandSummary" value="向NPC #b#p9000040##k报告，并领取光荣的#t1142108#。"/>
         <string name="rewardSummary" value="#Wbasic#"/>
         <int name="autoAccept" value="1"/>
         <int name="viewMedalItem" value="1142108"/>
@@ -9748,10 +9747,10 @@
         <string name="name" value="高级冒险家"/>
         <int name="area" value="51"/>
         <int name="autoStart" value="1"/>
-        <string name="0" value="You can earn the #b&lt;Veteran Adventurer&gt;#k title by completing your 3rd Job Advancement as an Adventurer."/>
-        <string name="1" value="Adventurers who complete the 3rd Job Advancement will receive the #b&lt;Veteran Adventurer&gt;#k title. Go find NPC #p9000040#, who can be found in every town."/>
-        <string name="2" value="You have earned the #b&lt;Junior Adventurer&gt;#k title by completing your 3rd Job Advancement as an Adventurer."/>
-        <string name="demandSummary" value="Report to NPC #b#p900040##k and receive the honorable #t1142109# Medal."/>
+        <string name="0" value="完成冒险家的3转后，即可获得#b&lt;高级冒险家&gt;#k称号。"/>
+        <string name="1" value="完成冒险家的3转后，即可获得#b&lt;高级冒险家&gt;#k称号。请前往各个村庄寻找NPC #p9000040#。"/>
+        <string name="2" value="你已完成冒险家的3转，获得了#b&lt;高级冒险家&gt;#k称号。"/>
+        <string name="demandSummary" value="向NPC #b#p9000040##k报告，并领取光荣的#t1142109#。"/>
         <string name="rewardSummary" value="#Wbasic#"/>
         <int name="autoAccept" value="1"/>
         <int name="viewMedalItem" value="1142109"/>
@@ -9760,74 +9759,74 @@
         <string name="name" value="大师冒险家"/>
         <int name="area" value="51"/>
         <int name="autoStart" value="1"/>
-        <string name="0" value="You can earn the #b&lt;Master Adventurer&gt;#k title by completing your 4th Job Advancement as an Adventurer."/>
-        <string name="1" value="Adventurers who complete the 4th Job Advancement will receive the #b&lt;Master Adventurer&gt;#k title. Go find NPC #p9000040#, who can be found in every town."/>
-        <string name="2" value="You have earned the #b&lt;Master Adventurer&gt;#k title by completing your 4th Job Advancement as an Adventurer."/>
-        <string name="demandSummary" value="Report to NPC #b#p900040##k and receive the honorable #t1142110# Medal."/>
+        <string name="0" value="完成冒险家的4转后，即可获得#b&lt;大师冒险家&gt;#k称号。"/>
+        <string name="1" value="完成冒险家的4转后，即可获得#b&lt;大师冒险家&gt;#k称号。请前往各个村庄寻找NPC #p9000040#。"/>
+        <string name="2" value="你已完成冒险家的4转，获得了#b&lt;大师冒险家&gt;#k称号。"/>
+        <string name="demandSummary" value="向NPC #b#p9000040##k报告，并领取光荣的#t1142110#。"/>
         <string name="rewardSummary" value="#Wbasic#"/>
         <int name="autoAccept" value="1"/>
         <int name="viewMedalItem" value="1142110"/>
     </imgdir>
     <imgdir name="29904">
-        <string name="name" value="Noblesse"/>
+        <string name="name" value="骑士团初心者"/>
         <int name="area" value="51"/>
-        <string name="1" value="Prove that you&apos;re one of the Cygnus Knights and receive the #b&lt;Noblesse&gt;#k title."/>
+        <string name="1" value="证明你是皇家骑士团的一员，并获得#b&lt;骑士团初心者&gt;#k称号。"/>
         <int name="autoStart" value="1"/>
-        <string name="2" value="As a member of the honorable knighthood, you have received your first title, the #b&lt;Noblesse&gt;#k, upon pledging your loyalty to the Empress."/>
-        <string name="demandSummary" value="20000 Greetings from the Young Empress Chain Quest"/>
+        <string name="2" value="作为光荣骑士团的一员，在向女皇宣誓效忠后，你获得了第一个称号：#b&lt;骑士团初心者&gt;#k。"/>
+        <string name="demandSummary" value="完成 20000 小女王的问候 连锁任务。"/>
         <int name="autoAccept" value="1"/>
-        <string name="0" value="Prove that you&apos;re one of the Cygnus Knights and receive the #b&lt;Noblesse&gt;#k title."/>
+        <string name="0" value="证明你是皇家骑士团的一员，并获得#b&lt;骑士团初心者&gt;#k称号。"/>
         <int name="viewMedalItem" value="1142065"/>
     </imgdir>
     <imgdir name="29905">
-        <string name="name" value="Noblesse"/>
+        <string name="name" value="骑士团初心者"/>
         <int name="area" value="51"/>
-        <string name="1" value="Prove that you&apos;re one of the Cygnus Knights and receive the #b&lt;Noblesse&gt;#k title."/>
+        <string name="1" value="证明你是皇家骑士团的一员，并获得#b&lt;骑士团初心者&gt;#k称号。"/>
         <int name="autoStart" value="1"/>
-        <string name="2" value="As a member of the honorable knighthood, you have received your first title, the #b&lt;Noblesse&gt;#k, upon pledging your loyalty to the Empress."/>
+        <string name="2" value="作为光荣骑士团的一员，在向女皇宣誓效忠后，你获得了第一个称号：#b&lt;骑士团初心者&gt;#k。"/>
         <int name="autoAccept" value="1"/>
-        <string name="0" value="Prove that you&apos;re one of the Cygnus Knights and receive the #b&lt;Noblesse&gt;#k title."/>
+        <string name="0" value="证明你是皇家骑士团的一员，并获得#b&lt;骑士团初心者&gt;#k称号。"/>
         <int name="viewMedalItem" value="1142065"/>
     </imgdir>
     <imgdir name="29906">
-        <string name="name" value="Knight-in-Training"/>
+        <string name="name" value="修炼骑士"/>
         <int name="area" value="51"/>
         <int name="autoStart" value="1"/>
-        <string name="0" value="You can acquire the #b&lt;Knight-in-Training&gt;#k title by completing the 1st Job Advancement as a Knight."/>
-        <string name="2" value="You have earned the #b&lt;Knight-in-Training&gt;#k title, which is given to those who are determined to follow the honorable path of the Knight."/>
-        <string name="demandSummary" value="Acquire the #b&lt;Knight-in-Training&gt;#k title by completing the 1st Job Advancement as a Knight."/>
+        <string name="0" value="完成皇家骑士团第1次转职后，可以获得#b&lt;修炼骑士&gt;#k称号。"/>
+        <string name="2" value="你获得了#b&lt;修炼骑士&gt;#k称号。这是授予决心踏上光荣骑士之路者的称号。"/>
+        <string name="demandSummary" value="完成皇家骑士团第1次转职，获得#b&lt;修炼骑士&gt;#k称号。"/>
         <int name="autoAccept" value="1"/>
-        <string name="1" value="You can earn the #b&lt;Knight-in-Training&gt;#k title by completing the 1st Job Advancement as a Knight."/>
+        <string name="1" value="完成皇家骑士团第1次转职后，可以获得#b&lt;修炼骑士&gt;#k称号。"/>
         <int name="viewMedalItem" value="1142066"/>
     </imgdir>
     <imgdir name="29907">
-        <string name="name" value="Official Knight"/>
+        <string name="name" value="正式骑士"/>
         <int name="area" value="51"/>
         <int name="autoStart" value="1"/>
-        <string name="0" value="You can acquire the #b&lt;Official Knight&gt;#k title by completing the 2nd Job Advancement as a Knight."/>
-        <string name="2" value="Your prowess has been recognized! You have earned the #b&lt;Official Knight&gt;#k title."/>
+        <string name="0" value="完成皇家骑士团第2次转职后，可以获得#b&lt;正式骑士&gt;#k称号。"/>
+        <string name="2" value="你的实力获得了认可！你获得了#b&lt;正式骑士&gt;#k称号。"/>
         <int name="autoAccept" value="1"/>
-        <string name="1" value="You can acquire the #b&lt;Official Knight&gt;#k title by completing the 2nd Job Advancement as a Knight."/>
+        <string name="1" value="完成皇家骑士团第2次转职后，可以获得#b&lt;正式骑士&gt;#k称号。"/>
         <int name="viewMedalItem" value="1142067"/>
     </imgdir>
     <imgdir name="29908">
-        <string name="name" value="Advanced Knight"/>
+        <string name="name" value="高级骑士"/>
         <int name="area" value="51"/>
         <int name="autoStart" value="1"/>
-        <string name="0" value="You can acquire the #b&lt;Advanced Knight&gt;#k title by completing the 3rd Job Advancement as a Knight."/>
-        <string name="2" value="You have been given the #b&lt;Advanced Knight&gt;#k title for guarding Shinsoo&apos;s Teardrop."/>
+        <string name="0" value="完成皇家骑士团第3次转职后，可以获得#b&lt;高级骑士&gt;#k称号。"/>
+        <string name="2" value="你守护了神兽之泪，因此获得了#b&lt;高级骑士&gt;#k称号。"/>
         <int name="autoAccept" value="1"/>
-        <string name="1" value="You can acquire the #b&lt;Advanced Knight&gt;#k title by completing the 3rd Job Advancement as a Knight."/>
+        <string name="1" value="完成皇家骑士团第3次转职后，可以获得#b&lt;高级骑士&gt;#k称号。"/>
         <int name="viewMedalItem" value="1142068"/>
     </imgdir>
     <imgdir name="29909">
-        <string name="name" value="Chief Knight"/>
+        <string name="name" value="骑士团长"/>
         <int name="area" value="51"/>
         <int name="autoStart" value="1"/>
-        <string name="0" value="You can acquire the #b&lt;Chief Knight&gt;#k title by blocking the curse of the Black Witch."/>
-        <string name="2" value="You have saved the Empress from danger by blocking the curse of the Black Witch. For your tremendous accomplishment, you have received the#b&lt;Chief Knight&gt;#k title, the highest position in the Cygnus Knights."/>
+        <string name="0" value="阻止黑巫婆的诅咒后，可以获得#b&lt;骑士团长&gt;#k称号。"/>
+        <string name="2" value="你阻止了黑巫婆的诅咒，将女皇从危险中拯救出来。凭借这项伟大的功绩，你获得了皇家骑士团最高职位的称号：#b&lt;骑士团长&gt;#k。"/>
         <int name="autoAccept" value="1"/>
-        <string name="1" value="You can acquire the #&lt;Chief Knight&gt;#k title by blocking the curse of the Black Witch."/>
+        <string name="1" value="阻止黑巫婆的诅咒后，可以获得#b&lt;骑士团长&gt;#k称号。"/>
         <int name="viewMedalItem" value="1142069"/>
     </imgdir>
     <imgdir name="29910">
@@ -9881,84 +9880,84 @@
         <int name="autoAccept" value="1"/>
     </imgdir>
     <imgdir name="29915">
-        <string name="name" value="Mu Lung Dojo Vanquisher"/>
+        <string name="name" value="武陵道场征服者"/>
         <int name="area" value="51"/>
         <int name="medalCategory" value="1"/>
         <int name="viewMedalItem" value="1142064"/>
         <int name="autoStart" value="1"/>
         <int name="autoAccept" value="1"/>
-        <string name="0" value="#b#eTitle - Mu Lung Dojo Vanquisher#n#\r\n#k#b&lt;Mu Lung Dojo Vanquisher&gt;#k, a coveted title given only to Mu Lung Dojo experts. \r\n●Requirement(s) : Acquire the #bMu Lung Dojo Vanquisher Medal#k from #bMu Lung Dojo#k."/>
-        <string name="2" value="You have earned the #b&lt;Mu Lung Dojo Vanquisher&gt;#k title by defeating all of the master monsters in Mu Lung Dojo."/>
+        <string name="0" value="#b#e称号 - 武陵道场征服者#n#\r\n#k#b&lt;武陵道场征服者&gt;#k，只有精通武陵道场的勇士才能获得的荣誉称号。\r\n●条件：在#b武陵道场#k获得#b武陵道场征服者勋章#k。"/>
+        <string name="2" value="你已经通过击败武陵道场中的所有大师怪物，获得了#b&lt;武陵道场征服者&gt;#k称号。"/>
     </imgdir>
     <imgdir name="29916">
-        <string name="name" value="Henesys Donor Medal"/>
+        <string name="name" value="射手村爱心使者勋章"/>
         <int name="area" value="51"/>
         <int name="autoStart" value="1"/>
         <int name="autoAccept" value="1"/>
-        <string name="2" value="Donations are a quick way to give back to the community. You have earned the #b&lt;Henesys Donor&gt;#k title."/>
+        <string name="2" value="捐赠是回馈社区的好方法。你已经获得了#b&lt;射手村爱心使者&gt;#k称号。"/>
         <int name="medalCategory" value="2"/>
         <int name="viewMedalItem" value="1142014"/>
     </imgdir>
     <imgdir name="29917">
-        <string name="name" value="Ellinia Donor Medal"/>
+        <string name="name" value="魔法密林爱心使者勋章"/>
         <int name="area" value="51"/>
         <int name="autoStart" value="1"/>
         <int name="autoAccept" value="1"/>
-        <string name="2" value="Donations are a quick way to give back to the community. You have earned the #b&lt;Ellinia Donor&gt;#k title."/>
+        <string name="2" value="捐赠是回馈社区的好方法。你已经获得了#b&lt;魔法密林爱心使者&gt;#k称号。"/>
         <int name="medalCategory" value="2"/>
         <int name="viewMedalItem" value="1142015"/>
     </imgdir>
     <imgdir name="29918">
-        <string name="name" value="Perion Donor Medal"/>
+        <string name="name" value="勇士部落爱心使者勋章"/>
         <int name="area" value="51"/>
         <int name="autoStart" value="1"/>
         <int name="autoAccept" value="1"/>
-        <string name="2" value="Donations are a quick way to give back to the community. You have earned the #b&lt;Perion Donor&gt;#k title."/>
+        <string name="2" value="捐赠是回馈社区的好方法。你已经获得了#b&lt;勇士部落爱心使者&gt;#k称号。"/>
         <int name="medalCategory" value="2"/>
         <int name="viewMedalItem" value="1142016"/>
     </imgdir>
     <imgdir name="29919">
-        <string name="name" value="Kerning City Donor Medal"/>
+        <string name="name" value="废弃都市爱心使者勋章"/>
         <int name="area" value="51"/>
         <int name="autoStart" value="1"/>
         <int name="autoAccept" value="1"/>
-        <string name="2" value="Donations are a quick way to give back to the community. You have earned the #b&lt;Kerning City Donor&gt;#k title."/>
+        <string name="2" value="捐赠是回馈社区的好方法。你已经获得了#b&lt;废弃都市爱心使者&gt;#k称号。"/>
         <int name="medalCategory" value="2"/>
         <int name="viewMedalItem" value="1142017"/>
     </imgdir>
     <imgdir name="29920">
-        <string name="name" value="Sleepywood Donor Medal"/>
+        <string name="name" value="林中之城爱心使者勋章"/>
         <int name="area" value="51"/>
         <int name="autoStart" value="1"/>
         <int name="autoAccept" value="1"/>
-        <string name="2" value="Donations are a quick way to give back to the community. You have earned the #b&lt;Sleepywood Donor&gt;#k title."/>
+        <string name="2" value="捐赠是回馈社区的好方法。你已经获得了#b&lt;林中之城爱心使者&gt;#k称号。"/>
         <int name="medalCategory" value="2"/>
         <int name="viewMedalItem" value="1142018"/>
     </imgdir>
     <imgdir name="29921">
-        <string name="name" value="Nautilus Donor Medal"/>
+        <string name="name" value="诺特勒斯爱心使者勋章"/>
         <int name="area" value="51"/>
         <int name="autoStart" value="1"/>
         <int name="autoAccept" value="1"/>
-        <string name="2" value="Donations are a quick way to give back to the community. You have earned the #b&lt;Nautilus Donor&gt;#k title."/>
+        <string name="2" value="捐赠是回馈社区的好方法。你已经获得了#b&lt;诺特勒斯爱心使者&gt;#k称号。"/>
         <int name="medalCategory" value="2"/>
         <int name="viewMedalItem" value="1142019"/>
     </imgdir>
     <imgdir name="29922">
-        <string name="name" value="Veteran Hunter"/>
+        <string name="name" value="勤奋冒险家"/>
         <int name="area" value="51"/>
         <int name="medalCategory" value="2"/>
         <int name="viewMedalItem" value="1142004"/>
-        <string name="2" value="You have earned the #b&lt;Veteran Hunter&gt;#k title by hunting 100,000 monsters that are above you in level within 30 days."/>
+        <string name="2" value="你已经在30天内狩猎100,000只符合条件的怪物，获得了#b&lt;勤奋冒险家&gt;#k称号。"/>
         <int name="autoStart" value="1"/>
         <int name="autoAccept" value="1"/>
     </imgdir>
     <imgdir name="29923">
-        <string name="name" value="Legendary Hunter"/>
+        <string name="name" value="传说中的冒险家"/>
         <int name="area" value="51"/>
         <int name="medalCategory" value="2"/>
         <int name="viewMedalItem" value="1142005"/>
-        <string name="2" value="No one can trump your hunting skills! You have earned the #b&lt;Legendary Hunter&gt;#k title."/>
+        <string name="2" value="无人能超越你的狩猎技巧！你已经获得了#b&lt;传说中的冒险家&gt;#k称号。"/>
         <int name="autoStart" value="1"/>
         <int name="autoAccept" value="1"/>
     </imgdir>
@@ -10050,13 +10049,13 @@
         <string name="1" value="#e#bChallenge yourself to earn the Protector of Pharaoh title!#k#n\r\n* Requirements: Eliminate #b50,000 monsters#k in Nett&apos;s Pyramid \r\n* Current Count: #b#R7760##k\r\nAfter completing the requirements, see #bDuarte#k to receive your medal.\r\n"/>
     </imgdir>
     <imgdir name="29933">
-        <string name="name" value="Lith Harbor Donor"/>
+        <string name="name" value="明珠港爱心使者"/>
         <int name="area" value="51"/>
         <int name="autoStart" value="1"/>
         <int name="autoAccept" value="1"/>
         <int name="medalCategory" value="2"/>
         <int name="viewMedalItem" value="1142030"/>
-        <string name="2" value="Charity is key to a prosperous life. Acquired the title #b&lt;Lith Harbor Donor&gt;#k.\r\n"/>
+        <string name="2" value="慈善是美好生活的重要基石。你已经获得了#b&lt;明珠港爱心使者&gt;#k称号。\r\n"/>
     </imgdir>
     <imgdir name="3000">
         <string name="name" value="查里中士"/>
@@ -18310,10 +18309,10 @@
         <int name="area" value="50"/>
     </imgdir>
     <imgdir name="8219">
-        <string name="name" value="Finding Jack"/>
-        <string name="0" value="I heard that John Barricade has received news from his brother Jack!  I should go find John in Bigger Ben and see what he&apos;s learned."/>
-        <string name="1" value="Apparently, Jack Barricade is in Masteria and has discovered Crimsonwood Keep deep in the Phantom Forest.  However, the last letter John received from his brother was dated over a month ago.  John wants me to head to Crimsonwood after him and see why Jack&apos;s communiques have stopped.  Looks like I need to make my way through the Phantom Forest... I&apos;d better stock up on potions!"/>
-        <string name="2" value="I found Jack Barricade resting in a cave on Crimsonwood Mountain.  It turns out that after exploring the Masterian wilderness for weeks, Jack finally came across the ancient stronghold - only it wasn&apos;t deserted.  Jack was captured and imprisoned in the Keep by the evil soldiers I&apos;ve been seeing around, but luckily managed to escape.  John will be relieved that Jack is okay."/>
+        <string name="name" value="寻找杰克"/>
+        <string name="0" value="听说约翰·贝瑞加德收到了他兄弟杰克的消息！我应该去大本钟找约翰，看看他知道了什么。"/>
+        <string name="1" value="原来杰克·贝瑞加德正在玛斯特里亚一带探索，并在幻影森林深处发现了绯红要塞。可是约翰最后一次收到杰克的来信，已经是一个多月前的事了。约翰希望我前往绯红要塞寻找杰克，查清他为什么停止联络。看来我得穿过幻影森林……最好先准备足够的药水！"/>
+        <string name="2" value="我在绯红山脉的洞穴里找到了正在休息的杰克·贝瑞加德。原来他在玛斯特里亚荒野中探索了数周后，终于发现了那座古老要塞——但那里并不是空城。杰克被我一路见到的邪恶士兵抓住并关进要塞，幸好最后成功逃了出来。约翰知道杰克平安无事后，一定会松一口气。"/>
         <int name="area" value="45"/>
     </imgdir>
     <imgdir name="8220">
